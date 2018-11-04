@@ -3,7 +3,6 @@
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
-import Header from '../components/header';
 
 const IndexPage = props => (
     <main>
