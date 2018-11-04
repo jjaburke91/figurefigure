@@ -26,8 +26,8 @@ const Header = () => (
     <header className="header text-uppercase font-secondary">
         <nav>
             <ul className="header__nav">
-                {HEADER_ITEMS.map(item => (
-                    <li className="nav-item text-bold">
+                {HEADER_ITEMS.map((item, i)=> (
+                    <li className="nav-item text-bold" key={`nav-item-${i}`}>
                        <a href={item.href}>{item.text}</a>
                     </li>
                 ))}

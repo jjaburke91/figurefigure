@@ -1,15 +1,23 @@
 /* global graphql */
 
 import React from 'react';
-import Features from '../components/features';
-import HowTo from '../components/how-to';
 
-const IndexPage = props => (
-    <main>
-        <Features data={props.data.allDataJson.edges[0].node.features}/>
-        <HowTo data={props.data.allDataJson.edges[0].node.howTo}/>
-    </main>
-);
+const IndexPage = props => {
+    const items = props.data.allDataJson.edges[0].node.issues;
+
+    const latestIssue = items && items[items.length -1];
+
+    return (
+        <main>
+            <div className="text-center">
+                <h2>
+                    {`${latestIssue.title} - Number ${latestIssue.number} - ${latestIssue.date_of_issue}`}
+                </h2>
+                <img src={latestIssue.image_href} />
+            </div>
+        </main>
+    )
+};
 
 export default IndexPage;
 
@@ -18,11 +26,11 @@ export const pageQuery = graphql`
     allDataJson {
       edges {
         node {
-          features {
+          issues {
+            number
             title
-          }
-          howTo {
-            title
+            date_of_issue
+            image_href
           }
         }
       }
