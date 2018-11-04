@@ -3,12 +3,14 @@
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
+import Header from '../components/header';
 
-const IndexPage = props =>
-  (<main>
-    <Features data={props.data.allDataJson.edges[0].node.features} />
-    <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
-  </main>);
+const IndexPage = props => (
+    <main>
+        <Features data={props.data.allDataJson.edges[0].node.features}/>
+        <HowTo data={props.data.allDataJson.edges[0].node.howTo}/>
+    </main>
+);
 
 export default IndexPage;
 
