@@ -3,24 +3,24 @@
 import React from 'react';
 import Issue from '../components/issue';
 
-const IndexPage = props => {
-    const items = props.data.allDataJson.edges[0].node.issues;
-
-    const latestIssue = items && items[items.length -1];
+const ArchivePage = props => {
+    const issues = props.data.allDataJson.edges[0].node.issues;
 
     return (
         <main>
-            <div className="text-center">
-                <Issue issue={latestIssue} isFullPage={true}/>
+            <div className="issue-grid">
+                {issues.map(issue => (
+                    <Issue issue={issue} />
+                ))}
             </div>
         </main>
     )
 };
 
-export default IndexPage;
+export default ArchivePage;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query ArchiveQuery {
     allDataJson {
       edges {
         node {

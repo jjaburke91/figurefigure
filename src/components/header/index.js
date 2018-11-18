@@ -9,15 +9,15 @@ const HEADER_ITEMS = [
     },
     {
         text: 'Archive',
-        href: '/',
+        href: '/archive',
     },
     {
         text: 'About',
-        href: '/',
+        href: '/about',
     },
     {
         text: 'Contact',
-        href: '/',
+        href: '/contact',
     },
 
 ];
