@@ -100,5 +100,19 @@
             "Partie du corps considérée par rapport aux expressions qu’on y lit.",
             "Toute illustration (schéma, dessin, photo) dans un ouvrage. (Abréviation : fig.)."
         ]
+    },
+    "contact": {
+        "director": {
+            "name": "Indira Béraud",
+            "email": "Indira@figurefigure.fr"
+        },
+        "writer": {
+            "name": "Line Ajan",
+            "email": "Line@figurefigure.fr"
+        },
+        "artist": {
+            "name": "Fani Morieres",
+            "email": "Fani@figurefigure.fr"
+        }
     }
 }
