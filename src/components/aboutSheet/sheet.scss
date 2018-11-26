@@ -1,10 +1,12 @@
 .sheet {
-    width: 35%;
+    width: 38%;
     margin: 0 10px;
     padding: 40px 40px 50px;
 
     background-color: #e5e4e2;
     box-shadow: 3px 2px 6px rgba(159, 159, 159, 0.37);
+
+    box-sizing: border-box;
 }
 
 .sheet_header {
@@ -37,8 +39,20 @@
     justify-content: center;
 }
 
-
 .sheet-bg {
     background-repeat: repeat;
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .sheets-list {
+        width: 100%;
+        flex-direction: column;
+    }
+    .sheet {
+        width: 90%;
+        margin: 0 auto 37px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }

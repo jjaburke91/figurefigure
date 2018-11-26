@@ -20,3 +20,15 @@
 .nav-item a {
     padding: 1px 3px;
 }
+
+
+@media (max-width: 767px) {
+    .header__nav {
+        font-size: 16px;
+        flex-direction: column;
+    }
+    .nav-item {
+        text-align: center;
+        padding: 3px 0px;
+    }
+}

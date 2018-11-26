@@ -36,3 +36,9 @@
 .issue-grid__item {
     display: flex;
 }
+
+@media (max-width: 767px) {
+    .issue {
+        width: 80%;
+    }
+}
