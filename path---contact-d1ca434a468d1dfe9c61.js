@@ -1,2 +1,2 @@
-webpackJsonp([0xa7f31e1aeaea],{259:function(e,a){e.exports={data:{allDataJson:{edges:[{node:{contact:{director:{name:"Indira Béraud",email:"Indira@figurefigure.fr"},artist:{name:"Fani Morieres",email:"Fani@figurefigure.fr"},writer:{name:"Line Ajan",email:"Line@figurefigure.fr"}}}}]}},pathContext:{}}}});
+webpackJsonp([0xa7f31e1aeaea],{263:function(e,a){e.exports={data:{allDataJson:{edges:[{node:{contact:{director:{name:"Indira Béraud",email:"Indira@figurefigure.fr"},artist:{name:"Fani Morieres",email:"Fani@figurefigure.fr"},writer:{name:"Line Ajan",email:"Line@figurefigure.fr"}}}}]}},pathContext:{}}}});
 //# sourceMappingURL=path---contact-d1ca434a468d1dfe9c61.js.map
