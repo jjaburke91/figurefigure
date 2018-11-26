@@ -4,12 +4,17 @@ import React from 'react';
 
 import './contact.scss';
 import { withPrefix } from 'gatsby-link';
+import Helmet from 'react-helmet';
+
+const PAGE_TITLE = "Contact | Figure Figure";
 
 const ContactPage = props => {
     const { director, artist, writer }= props.data.allDataJson.edges[0].node.contact;
 
     return (
         <main>
+            <Helmet title={PAGE_TITLE} />
+
             <div className="sheets-list">
                 <div className={"sheet sheet--contact text-center sheet-bg"} style={{backgroundImage: `url("${withPrefix(`/images/sheet_texture.jpg`)}")`}}>
                     <div className={'contact-section'}>

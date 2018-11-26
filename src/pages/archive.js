@@ -2,12 +2,17 @@
 
 import React from 'react';
 import Issue from '../components/issue';
+import Helmet from 'react-helmet';
+
+const PAGE_TITLE = "Archive | Figure Figure";
 
 const ArchivePage = props => {
     const issues = props.data.allDataJson.edges[0].node.issues;
 
     return (
         <main>
+            <Helmet title={PAGE_TITLE} />
+
             <div className="issue-grid">
                 {issues.sort((a, b) => b.number - a.number).map((issue, i) => (
                     <Issue issue={issue} key={`archive item ${i}`} />
