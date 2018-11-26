@@ -10,19 +10,19 @@ const ContactPage = props => {
     return (
         <main>
             <div className="sheets-list">
-                <div className={"sheet sheet--contact text-center"}>
+                <div className={"sheet sheet--contact text-center sheet-bg"}>
                     <div className={'contact-section'}>
-                        <h3 className={'font-secondary text-bold text-uppercase'}>Directrice De La Rédaction</h3>
+                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Directrice De La Rédaction</h2>
                         <div className={"contact-section__item"}>{director.name}</div>
                         <a className={"contact-section__item"} href={`mailto:${director.email}`} target="_blank">{director.email}</a>
                     </div>
                     <div className={'contact-section'}>
-                        <h3 className={'font-secondary text-bold text-uppercase'}>Rédactrice</h3>
+                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Rédactrice</h2>
                         <div className={"contact-section__item"}>{artist.name}</div>
                         <a className={"contact-section__item"} href={`mailto:${artist.email}`} target="_blank">{artist.email}</a>
                     </div>
                     <div className={'contact-section'}>
-                        <h3 className={'font-secondary text-bold text-uppercase'}>Direction Artistique</h3>
+                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Direction Artistique</h2>
                         <div className={"contact-section__item"}>{writer.name}</div>
                         <a className={"contact-section__item"} href={`mailto:${writer.email}`} target="_blank">{writer.email}</a>
                     </div>

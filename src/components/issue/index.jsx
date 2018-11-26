@@ -6,11 +6,11 @@ import './issue.scss';
 const Issue = ({issue, isFullPage}) => {
     const fullPageClass = isFullPage ? "issue--full-height" : "";
     return (
-        <div className={`issue ${fullPageClass}`}>
+        <article className={`issue ${fullPageClass}`}>
             <a href={issue.path} target="_blank">
-                <img className="issue__img" src={issue.image_href} />
+                <img className="issue__img" src={issue.image_href} alt={`Issue ${issue.title} link`}/>
             </a>
-        </div>
+        </article>
     )
 };
 
