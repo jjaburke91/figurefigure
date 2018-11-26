@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
-  pathPrefix: "/figurefigure",
+  pathPrefix: 'figurefigure',
   plugins: [
     `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
@@ -31,4 +31,4 @@ module.exports = {
     },
     `gatsby-transformer-json`
   ],
-}
+};

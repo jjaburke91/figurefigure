@@ -3,6 +3,7 @@
 import React from 'react';
 
 import './contact.scss';
+import { withPrefix } from 'gatsby-link';
 
 const ContactPage = props => {
     const { director, artist, writer }= props.data.allDataJson.edges[0].node.contact;
@@ -10,7 +11,7 @@ const ContactPage = props => {
     return (
         <main>
             <div className="sheets-list">
-                <div className={"sheet sheet--contact text-center sheet-bg"}>
+                <div className={"sheet sheet--contact text-center sheet-bg"} style={{backgroundImage: `url("${withPrefix(`/images/sheet_texture.jpg`)}")`}}>
                     <div className={'contact-section'}>
                         <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Directrice De La Rédaction</h2>
                         <div className={"contact-section__item"}>{director.name}</div>

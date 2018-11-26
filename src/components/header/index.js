@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { withPrefix } from "gatsby-link";
 
 import './_header.scss';
 
@@ -21,7 +20,6 @@ const HEADER_ITEMS = [
         text: 'Contact',
         path: '/contact',
     },
-
 ];
 
 const Header = () => (
@@ -30,7 +28,7 @@ const Header = () => (
             <ul className="header__nav">
                 {HEADER_ITEMS.map((item, i)=> (
                     <li className="nav-item text-bold" key={`nav-item-${i}`}>
-                        <Link to={withPrefix(item.path)} >{item.text}</Link>
+                        <Link to={item.path} >{item.text}</Link>
                     </li>
                 ))}
             </ul>
