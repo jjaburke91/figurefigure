@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-9903a21ac39de638e060.js",
-      "component---src-pages-index-js-9903a21ac39de638e060.js.map"
+      "component---src-pages-index-js-83d8290ad28b0c9e7fc2.js",
+      "component---src-pages-index-js-83d8290ad28b0c9e7fc2.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,8 +13,8 @@
       "component---src-pages-contact-js-52000a9863ffea4f8f1f.js.map"
     ],
     "component---src-pages-archive-js": [
-      "component---src-pages-archive-js-4f774c6bd678f685ce7c.js",
-      "component---src-pages-archive-js-4f774c6bd678f685ce7c.js.map"
+      "component---src-pages-archive-js-0f9f9e0dbc51a37c05e2.js",
+      "component---src-pages-archive-js-0f9f9e0dbc51a37c05e2.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-e8724c283eff9345a476.js",
@@ -25,24 +25,24 @@
       "path---index-7c674cc6571d42f41dd5.js.map"
     ],
     "commons": [
-      "commons-564e2aee9e8631e9f0e0.js",
-      "commons-564e2aee9e8631e9f0e0.js.map"
+      "commons-0bda14d01b74ce1c15bc.js",
+      "commons-0bda14d01b74ce1c15bc.js.map"
     ],
     "path---contact": [
       "path---contact-d1ca434a468d1dfe9c61.js",
       "path---contact-d1ca434a468d1dfe9c61.js.map"
     ],
     "app": [
-      "app-20033c3a522e6f5630ab.js",
-      "app-20033c3a522e6f5630ab.js.map"
+      "app-ef67b1d7daf5725c7418.js",
+      "app-ef67b1d7daf5725c7418.js.map"
     ],
     "path---archive": [
       "path---archive-7c674cc6571d42f41dd5.js",
       "path---archive-7c674cc6571d42f41dd5.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-be01f3f240ec9c359b77.js",
-      "component---src-pages-about-js-be01f3f240ec9c359b77.js.map"
+      "component---src-pages-about-js-e125afc11f2fa75dda7d.js",
+      "component---src-pages-about-js-e125afc11f2fa75dda7d.js.map"
     ],
     "path---about": [
       "path---about-003a687fb28285776124.js",
