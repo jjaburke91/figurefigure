@@ -9,7 +9,7 @@ const ArchivePage = props => {
     return (
         <main>
             <div className="issue-grid">
-                {issues.map(issue => (
+                {issues.reverse().map(issue => (
                     <Issue issue={issue} />
                 ))}
             </div>

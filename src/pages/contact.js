@@ -14,17 +14,17 @@ const ContactPage = props => {
                     <div className={'contact-section'}>
                         <h3 className={'font-secondary text-bold text-uppercase'}>Directrice De La Rédaction</h3>
                         <div className={"contact-section__item"}>{director.name}</div>
-                        <div className={"contact-section__item"}>{director.email}</div>
+                        <a className={"contact-section__item"} href={`mailto:${director.email}`} target="_blank">{director.email}</a>
                     </div>
                     <div className={'contact-section'}>
                         <h3 className={'font-secondary text-bold text-uppercase'}>Rédactrice</h3>
                         <div className={"contact-section__item"}>{artist.name}</div>
-                        <div className={"contact-section__item"}>{artist.email}</div>
+                        <a className={"contact-section__item"} href={`mailto:${artist.email}`} target="_blank">{artist.email}</a>
                     </div>
                     <div className={'contact-section'}>
                         <h3 className={'font-secondary text-bold text-uppercase'}>Direction Artistique</h3>
                         <div className={"contact-section__item"}>{writer.name}</div>
-                        <div className={"contact-section__item"}>{writer.email}</div>
+                        <a className={"contact-section__item"} href={`mailto:${writer.email}`} target="_blank">{writer.email}</a>
                     </div>
                 </div>
             </div>
