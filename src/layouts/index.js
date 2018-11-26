@@ -9,6 +9,7 @@ import '../../sass/style.scss';
 const TemplateWrapper = ({ children }) => (
     <div className="page-container">
         <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Raleway" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" />
 
         <Helmet
             title="Figure Figure"

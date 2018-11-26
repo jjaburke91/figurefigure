@@ -8,14 +8,16 @@
 
     box-sizing: border-box;
 }
+.sheet--contact {
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
 
 .sheet_header {
     font-size: 16px;
     margin: 0;
     padding: 0 0 32px;
-}
-.sheet--contact {
-    justify-content: center;
 }
 
 .sheet-line {
@@ -31,7 +33,7 @@
 .sheet-line__number {
     flex-wrap: nowrap;
     min-width: 2em;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 .sheets-list {
