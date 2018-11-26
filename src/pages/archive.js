@@ -9,8 +9,8 @@ const ArchivePage = props => {
     return (
         <main>
             <div className="issue-grid">
-                {issues.reverse().map((issue, i) => (
-                    <Issue issue={issue} key={i} />
+                {issues.sort((a, b) => b.number - a.number).map((issue, i) => (
+                    <Issue issue={issue} key={`archive item ${i}`} />
                 ))}
             </div>
         </main>

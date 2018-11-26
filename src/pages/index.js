@@ -11,7 +11,7 @@ const IndexPage = props => {
     return (
         <main>
             <div className="text-center">
-                <Issue issue={latestIssue} isFullPage={true}/>
+                <Issue issue={latestIssue} isFullPage={true} key={"homepage issue"}/>
             </div>
         </main>
     )

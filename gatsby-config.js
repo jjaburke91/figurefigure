@@ -5,6 +5,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
+  pathPrefix: "/figurefigure",
   plugins: [
     `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,

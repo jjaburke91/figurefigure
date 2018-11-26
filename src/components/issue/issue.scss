@@ -1,17 +1,29 @@
 .issue {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
 
-    height: 340px;
+    width: 272px;
     margin: 10px 40px;
 }
 
 .issue__img {
-    height: 100%;
+    max-width: 100%;
 }
 
 .issue--full-height {
     height: calc(100vh - 200px);
+    max-height: 1200px;
+    min-height: 400px;
+    width: auto;
+
+    .issue__img {
+        max-width: unset;
+        max-height: 100%;
+    }
 }
 
 .issue-grid {
