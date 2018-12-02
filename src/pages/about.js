@@ -4,7 +4,7 @@ import React from 'react';
 import AboutSheet from '../components/aboutSheet';
 import Helmet from 'react-helmet';
 
-const PAGE_TITLE = "About | Figure Figure";
+const PAGE_TITLE = "À Propos | Figure Figure";
 
 const AboutPage = props => {
     const {english, french} = props.data.allDataJson.edges[0].node.about;

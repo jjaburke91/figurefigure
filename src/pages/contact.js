@@ -18,7 +18,7 @@ const ContactPage = props => {
             <div className="sheets-list">
                 <div className={"sheet sheet--contact text-center sheet-bg"} style={{backgroundImage: `url("${withPrefix(`/images/sheet_texture.jpg`)}")`}}>
                     <div className={'contact-section'}>
-                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Directrice De La Rédaction</h2>
+                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Direction De Publication</h2>
                         <div className={"contact-section__item"}>{director.name}</div>
                         <a className={"contact-section__item"} href={`mailto:${director.email}`} target="_blank">{director.email}</a>
                     </div>

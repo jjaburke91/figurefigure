@@ -5,15 +5,15 @@ import './_header.scss';
 
 const HEADER_ITEMS = [
     {
-        text: 'Latest Issue',
+        text: 'Publication',
         path: '/',
     },
     {
-        text: 'Archive',
+        text: 'Archives',
         path: '/archive',
     },
     {
-        text: 'About',
+        text: 'À Propos',
         path: '/about',
     },
     {

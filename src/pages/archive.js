@@ -4,7 +4,7 @@ import React from 'react';
 import Issue from '../components/issue';
 import Helmet from 'react-helmet';
 
-const PAGE_TITLE = "Archive | Figure Figure";
+const PAGE_TITLE = "Archives | Figure Figure";
 
 const ArchivePage = props => {
     const issues = props.data.allDataJson.edges[0].node.issues;

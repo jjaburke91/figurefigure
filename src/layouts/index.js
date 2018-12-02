@@ -14,7 +14,7 @@ const DEFAULT_URL = "http://figurefigure.fr/";
 
 const TemplateWrapper = ({ children }) => (
     <div className="page-container">
-        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Raleway" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900|Raleway" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" />
 
         <link rel="canonical" href={DEFAULT_URL} />
