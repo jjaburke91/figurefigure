@@ -14,18 +14,6 @@
     max-width: 100%;
 }
 
-.issue--full-height {
-    height: calc(100vh - 226px);
-    max-height: 1200px;
-    min-height: 400px;
-    width: auto;
-
-    .issue__img {
-        max-width: unset;
-        max-height: 100%;
-    }
-}
-
 .issue-grid {
     display: flex;
     align-content: center;
@@ -39,6 +27,24 @@
 
 @media (max-width: 767px) {
     .issue {
-        width: 80%;
+        width: 100%;
+    }
+    .issue--full-height {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) {
+    .issue--full-height {
+        height: calc(100vh - 226px);
+        max-height: 1200px;
+        min-height: 400px;
+        width: auto;
+        margin: 0 auto;
+
+        .issue__img {
+            max-width: unset;
+            max-height: 100%;
+        }
     }
 }
