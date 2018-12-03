@@ -1,7 +1,10 @@
 /* global graphql */
 
 import React from 'react';
+import Helmet from 'react-helmet';
 import Issue from '../components/issue';
+
+const PAGE_TITLE = "Figure Figure";
 
 const IndexPage = props => {
     const items = props.data.allDataJson.edges[0].node.issues;
@@ -10,6 +13,8 @@ const IndexPage = props => {
 
     return (
         <main>
+            <Helmet title={PAGE_TITLE} />
+
             <div className="text-center">
                 <Issue issue={latestIssue} isFullPage={true} key={"homepage issue"}/>
             </div>
