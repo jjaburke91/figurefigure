@@ -1,0 +1,2 @@
+webpackJsonp([0xa7f31e1aeaea],{260:function(e,a){e.exports={data:{allDataJson:{edges:[{node:{contact:{director:{name:"Line Ajan",email:"Line@figurefigure.fr"},artist:{name:"Fani Morieres",email:"Fani@figurefigure.fr"},writer:{name:"Indira Béraud",email:"Indira@figurefigure.fr"}}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---contact-7d4fba8939b1d9ae4436.js.map
