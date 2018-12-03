@@ -7,7 +7,7 @@ import { withPrefix } from "gatsby-link";
 
 import '../../sass/style.scss';
 
-const WEBSITE_DESCRIPTION = "Figure Figure est une revue digitale qui donne la parole aux artistes émergents.";
+const WEBSITE_DESCRIPTION = "Figure Figure est une revue digitale qui donne la parole aux artistes émergents. Raphaël Fabre, Aurore Le Duc, Thomas Guillemet, Alice Guittard, Marie Hazard, Morgan Courtois, Tyler Eash, Julien Creuzet, Marie Munk, Valentin Dommanget, Ben Elliot...";
 const WEBSITE_TITLE = "Figure Figure";
 
 const DEFAULT_IMAGE_URL = "https://jjaburke91.github.io/figurefigure/images/socials_img.jpg"; // TODO: Updated this when deployed
