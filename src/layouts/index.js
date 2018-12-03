@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import { withPrefix } from "gatsby-link";
 
 import '../../sass/style.scss';
 
-const WEBSITE_DESCRIPTION = ""; // TODO
+const WEBSITE_DESCRIPTION = "Figure Figure est une revue digitale qui donne la parole aux artistes émergents.";
 const WEBSITE_TITLE = "Figure Figure";
 
-const DEFAULT_IMAGE_URL = ""; // TODO
+const DEFAULT_IMAGE_URL = "https://jjaburke91.github.io/figurefigure/images/socials_img.jpg"; // TODO: Updated this when deployed
 const DEFAULT_URL = "http://figurefigure.fr/";
 
 const TemplateWrapper = ({ children }) => (
@@ -32,9 +33,14 @@ const TemplateWrapper = ({ children }) => (
         <meta property="og:image" content={DEFAULT_IMAGE_URL} />
         <meta property="og:image:alt" content={WEBSITE_TITLE} />
 
-        <Helmet
-            title="Figure Figure"
-        />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
         <Header/>
 
         {children()}
