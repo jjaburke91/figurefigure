@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import { withPrefix } from "gatsby-link";
 
 import '../../sass/style.scss';
 
 const WEBSITE_DESCRIPTION = "Figure Figure est une revue digitale qui donne la parole aux artistes émergents. Raphaël Fabre, Aurore Le Duc, Thomas Guillemet, Alice Guittard, Marie Hazard, Morgan Courtois, Tyler Eash, Julien Creuzet, Marie Munk, Valentin Dommanget, Ben Elliot...";
 const WEBSITE_TITLE = "Figure Figure";
 
-const DEFAULT_IMAGE_URL = "https://jjaburke91.github.io/figurefigure/images/socials_img.jpg"; // TODO: Updated this when deployed
+const DEFAULT_IMAGE_URL = "http://figurefigure.fr/images/socials_img.jpg"; 
 const DEFAULT_URL = "http://figurefigure.fr/";
 
 const TemplateWrapper = ({ children }) => (
