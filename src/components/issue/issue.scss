@@ -7,7 +7,7 @@
     justify-content: center;
 
     width: 260px;
-    margin: 10px 2px;
+    margin: 2px 2px;
 }
 
 .issue__img {
@@ -20,6 +20,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    padding-top: 8px;
 }
 .issue-grid__item {
     display: flex;
