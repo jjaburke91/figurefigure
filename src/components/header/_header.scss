@@ -28,10 +28,13 @@
     }
     .header__nav {
         font-size: 16px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 324px;
+        margin: 5px auto 8px auto;
     }
     .nav-item {
+        padding: 6px 0;
+        width: 50%;
         text-align: center;
-        padding: 3px 0px;
     }
 }
