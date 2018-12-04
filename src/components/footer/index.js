@@ -5,8 +5,8 @@ import Instagram from '../icon/instagram.icon';
 import Twitter from '../icon/twitter.icon';
 import './_footer.scss';
 
-const ICON_HEIGHT = 20;
-const ICON_WIDTH = 20;
+const ICON_HEIGHT = 36;
+const ICON_WIDTH = 36;
 const ICON_COLOR = 'black';
 
 const Footer = () => (
