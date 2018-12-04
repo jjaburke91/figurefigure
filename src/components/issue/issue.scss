@@ -5,9 +5,13 @@
     display: -webkit-flex;
     display: flex;
     justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
     width: 260px;
     margin: 2px 2px;
+    padding: 26px;
 }
 
 .issue__img {
