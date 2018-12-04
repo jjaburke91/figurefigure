@@ -104,15 +104,15 @@
     },
     "contact": {
         "director": {
-            "name": "Line Ajan",
-            "email": "Line@figurefigure.fr"
-        },
-        "writer": {
             "name": "Indira Béraud",
             "email": "Indira@figurefigure.fr"
         },
+        "writer": {
+            "name": "Line Ajan",
+            "email": "Line@figurefigure.fr"
+        },
         "artist": {
-            "name": "Fani Morieres",
+            "name": "Fani Morières",
             "email": "Fani@figurefigure.fr"
         }
     }
