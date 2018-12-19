@@ -4,8 +4,9 @@ Built with Node, Github Pages & Gatsby (including 'Gatsby React Boilerplate' tem
 
 ## Requirements
 
-*  [Node.js / NPM](http://nodejs.org)
-*  [Gatsby](https://www.gatsbyjs.org/docs/)
+* [Node.js / NPM](http://nodejs.org)
+* [Gatsby (React, Sass)](https://www.gatsbyjs.org/docs/)
+*
 
 ### Features
 
@@ -25,7 +26,7 @@ Before all stages, make sure you've installed the required dependencies with `np
 1. You should see a message saying your local server has started at `http://localhost:8000/`. Open this URL in the browser to view.
 1. Start coding, the development process will automatically rebuild the local project on any code changes.
 
-Note, this build and server are slightly different to the build that'll be used on the live site. To test a build matching how it'd be live, follow the next guide `Build`.
+Note, this build is slightly different to the build that'll be used on the live site. To test a build matching how it'd be live, follow the next guide `Build`.
 
 ### Build
 
