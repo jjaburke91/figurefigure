@@ -4,7 +4,7 @@ Built with Node, Github Pages & Gatsby (including 'Gatsby React Boilerplate' tem
 
 ## Requirements
 
-*  [Node.js](http://nodejs.org): for all the magic
+*  [Node.js / NPM](http://nodejs.org)
 *  [Gatsby](https://www.gatsbyjs.org/docs/)
 
 ### Features
@@ -19,7 +19,7 @@ Built with Node, Github Pages & Gatsby (including 'Gatsby React Boilerplate' tem
 
 Before all stages, make sure you've installed the required dependencies with `npm install` in the root directory.
 
-### Developing
+### Develop
 
 1. Run `npm run dev`, this will try execute the development process and local server.
 1. You should see a message saying your local server has started at `http://localhost:8000/`. Open this URL in the browser to view.
@@ -43,6 +43,10 @@ The live website is served via Github pages, routing [figurefigure.fr](figurefig
 1. Locally test your build process with the above `Build` guide, and ensure everything is working there before deploying.
 1. To deploy live, run `npm run deploylive`. This will build the app, and commit the build files to a `gh-pages` branch in the repository - Github pages will serve the website from this branch.
 1. Done! You can view the site at [figurefigure.fr](figurefigure.fr). Remember, it can take a few minutes for changes to become visible.
+
+## Making site updates
+
+Please create a pull request via Git from a feature branch, and do not commit onto master. I'd like to sign off any changes before merging in.
 
 ## Considerations
 
