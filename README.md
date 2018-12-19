@@ -17,6 +17,8 @@ Built with Node, Github Pages & Gatsby (including 'Gatsby React Boilerplate' tem
 
 ## Setup
 
+First, clone this repository with `git clone https://github.com/jjaburke91/figurefigure`.
+
 Before all stages, make sure you've installed the required dependencies with `npm install` in the root directory.
 
 ### Develop
@@ -46,7 +48,7 @@ The live website is served via Github pages, routing [figurefigure.fr](figurefig
 
 ## Making site updates
 
-Please create a pull request via Git from a feature branch, and do not commit onto master. I'd like to sign off any changes before merging in.
+Please work on a feature branch, and to put a change live, create a pull request going into `master`. A code owner can sign it off, allow it to be merged into master and deployed.
 
 ## Considerations
 
