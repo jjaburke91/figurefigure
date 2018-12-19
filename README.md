@@ -6,7 +6,6 @@ Built with Node, Github Pages & Gatsby (including 'Gatsby React Boilerplate' tem
 
 * [Node.js / NPM](http://nodejs.org)
 * [Gatsby (React, Sass)](https://www.gatsbyjs.org/docs/)
-*
 
 ### Features
 
