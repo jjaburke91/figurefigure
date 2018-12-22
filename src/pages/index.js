@@ -34,6 +34,7 @@ export const pageQuery = graphql`
             title
             date_of_issue
             image_href
+            bg_href
             path
           }
         }
