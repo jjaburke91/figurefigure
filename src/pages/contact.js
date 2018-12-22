@@ -23,7 +23,7 @@ const ContactPage = props => {
                         <a className={"contact-section__item"} href={`mailto:${director.email}`} target="_blank">{director.email}</a>
                     </div>
                     <div className={'contact-section'}>
-                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Rédaction</h2>
+                        <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Contribution</h2>
                         <div className={"contact-section__item"}>{writer.name}</div>
                         <a className={"contact-section__item"} href={`mailto:${writer.email}`} target="_blank">{writer.email}</a>
                     </div>
