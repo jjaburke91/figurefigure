@@ -15,7 +15,6 @@ const AboutPage = props => {
 
             <div className="sheets-list">
                 {french && <AboutSheet lines={french}/>}
-                {english && <AboutSheet lines={english}/>}
             </div>
         </main>
     )
