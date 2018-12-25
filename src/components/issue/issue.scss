@@ -35,21 +35,4 @@
     .issue {
         width: 100%;
     }
-    .issue--full-height {
-        width: 100%;
-    }
-}
-
-@media (min-width: 767px) {
-    .issue--full-height {
-        height: calc(100vh - 160px);
-        max-height: 1200px;
-        min-height: 400px;
-        width: auto;
-        margin: 16px auto;
-
-        .issue__img {
-            max-height: 100%;
-        }
-    }
 }

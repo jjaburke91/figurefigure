@@ -1,5 +1,5 @@
 .header {
-    max-width: 520px;
+    max-width: 420px;
     margin: auto;
     padding: 20px 0 0;
 }
@@ -8,10 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-inline-start: 0;
-
-    color: black;
-
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .nav-item {
@@ -20,7 +17,6 @@
 .nav-item a {
     padding: 1px 3px;
 }
-
 
 @media (max-width: 767px) {
     .header {

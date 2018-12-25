@@ -1,0 +1,14 @@
+.slick-slide > div {
+    padding: 4px;
+}
+
+
+@media (min-width: 767px) {
+    .issue--full-height {
+        margin-top: 140px;
+
+        .issue__img {
+            max-height: 100%;
+        }
+    }
+}

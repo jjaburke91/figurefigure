@@ -68,14 +68,16 @@
             "title": "Conversation avec Valentin Dommanget",
             "date_of_issue": "01/07/2018",
             "image_href": "/images/10.png",
+            "pages": {"prefix": "/images/10/10_", "sufix":".jpg", "first":1, "count": 5},
             "path": "/pdf/FigureFigure10ValentinDommanget.pdf"
         },
         {
             "number": 11,
             "title": "Conversation avec Ben Elliot",
             "date_of_issue": "01/12/2018",
-            "image_href": "/images/11.png",
-            "bg_href": "/images/11_background.jpg",
+            "image_href": "/images/11/11.png",
+            "bg_href": "/images/11/11_background.jpg",
+            "pages": {"prefix": "/images/11/11_", "sufix":".jpg", "first":1, "count": 5},
             "path": "/pdf/FigureFigure11BenElliot.pdf"
         },
         {
