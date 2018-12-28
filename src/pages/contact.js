@@ -16,7 +16,7 @@ const ContactPage = props => {
             <Helmet title={PAGE_TITLE} />
 
             <div className="sheets-list">
-                <div className={"sheet sheet--contact text-center sheet-bg"} style={{backgroundImage: `url("${withPrefix(`/images/sheet_texture.jpg`)}")`}}>
+                <div className={"sheet sheet--contact text-center sheet-bg"}>
                     <div className={'contact-section'}>
                         <h2 className={'contact-section__header font-secondary text-bold text-uppercase'}>Direction De Publication</h2>
                         <div className={"contact-section__item"}>{director.name}</div>

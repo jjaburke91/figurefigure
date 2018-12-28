@@ -5,7 +5,7 @@ import { withPrefix } from "gatsby-link";
 import './sheet.scss';
 
 const AboutSheet = ({lines}) => (
-    <div className="sheet sheet-bg" style={{backgroundImage: `url("${withPrefix(`/images/sheet_texture.jpg`)}")`}}>
+    <div className="sheet sheet-bg" >
         <h1 className="sheet_header font-secondary text-uppercase text-bold">Figure Figure</h1>
         {lines.map((line, i) => (
             <div className="sheet-line" key={i}>

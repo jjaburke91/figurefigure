@@ -7,7 +7,7 @@ import './issue.scss';
 const Issue = ({issue, isFullPage}) => {
     const fullPageClass = isFullPage ? "issue--full-height" : "";
     let bg = isFullPage && issue.bg_href
-        ? <div className="cover" style={{'background-image': `linear-gradient(0, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(${withPrefix(issue.bg_href)})`}} />
+        ? <div className="cover" style={{backgroundImage: `linear-gradient(0, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(${withPrefix(issue.bg_href)})`}} />
         : "" ;
 
     return (
