@@ -6,5 +6,9 @@
 @media (min-width: 767px) {
     .issue--full-height {
         margin-top: 140px;
+        
+        .slick-track {
+            cursor: grab;
+        }
     }
 }

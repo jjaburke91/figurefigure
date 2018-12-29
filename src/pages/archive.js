@@ -1,7 +1,7 @@
 /* global graphql */
 
 import React from 'react';
-import Issue from '../components/issue';
+import HomepageIssue from '../components/homepage_issue';
 import Helmet from 'react-helmet';
 
 const PAGE_TITLE = "Archives | Figure Figure";
@@ -15,7 +15,7 @@ const ArchivePage = props => {
 
             <div className="issue-grid">
                 {issues.sort((a, b) => b.number - a.number).map((issue, i) => (
-                    <Issue issue={issue} key={`archive item ${i}`} />
+                    <HomepageIssue issues={[issue]} key={`archive item ${i}`} />
                 ))}
             </div>
         </main>
@@ -34,6 +34,12 @@ export const pageQuery = graphql`
             title
             date_of_issue
             image_href
+            pages {
+              prefix
+              sufix
+              first
+              count
+            }
             path
           }
         }
