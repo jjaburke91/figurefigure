@@ -28,7 +28,6 @@ export const pageQuery = graphql`
       edges {
         node {
           about {
-            english
             french
           }
         }
