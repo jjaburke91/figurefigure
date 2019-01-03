@@ -29,11 +29,11 @@ class HomepageIssue extends React.Component {
         const currentNumber = psplits.length > 1 ? Number(psplits[1]) : latestIssue.number;
         this.firstPage = 0;
         this.currentIssue = latestIssue;
-    
         props.issues.sort((a, b) => b.number - a.number).map((issue, i) => {
             const p = issue.pages;
             if (p) {
-                Array.from(Array(p.count).keys()).map((value, index) => {
+                const pageCount = this.homepage ? 5 : p.count;
+                Array.from(Array(pageCount).keys()).map((value, index) => {
                     this.itemIssue.push(issue);
                     this.items.push(<img key={(p.first + index)} style={{padding: 8}} src={withPrefix(p.prefix + (p.first + index) + p.sufix)} alt={`Issue ${issue.title} link`}/>)
                 })
@@ -77,16 +77,16 @@ class HomepageIssue extends React.Component {
 
         return (
             <article className={className}>
-                <Slider {...settings}>
-                    {this.items}
-                </Slider>
-                <div className={`text-center footer`}>
+                          <div className={`text-center footer`}>
                     <div className={footerClassName}>
                         {footerDate}
                         {footerTitle}
                         <a id="download" ref={this.download} href={withPrefix(this.currentIssue.path)}>Télécharger</a> | <a id="share" ref={this.share} target="_blank" href={getShareUri(this.currentIssue)}>Partager</a>
                     </div>
-                </div>
+                </div> 
+                <Slider {...settings}>
+                    {this.items}
+                </Slider>
             </article>
         )
     }

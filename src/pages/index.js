@@ -30,8 +30,6 @@ export const pageQuery = graphql`
             number
             title
             date_of_issue
-            image_href
-            bg_href
             pages {
               prefix
               sufix
