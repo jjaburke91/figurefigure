@@ -5,71 +5,90 @@
             "title": "Conversation avec Raphaël Fabre",
             "date_of_issue": "2017-10-01",
             "image_href": "/images/1.png",
-            "path": "/pdf/FigureFigure01RaphaelFabre.pdf"
+            "pages": {"prefix": "/images/1/1.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure01RaphaelFabre.pdf",
+            "issue_path": "raphaël_fabre"
         },
         {
             "number": 2,
             "title": "Conversation avec Aurore Le Duc",
             "date_of_issue": "2017-11-01",
             "image_href": "/images/2.png",
-            "path": "/pdf/FigureFigure02AuroreLeDuc.pdf"
+            "pages": {"prefix": "/images/2/2.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure02AuroreLeDuc.pdf",
+            "issue_path": "aurore_le_duc"
         },
         {
             "number": 3,
             "title": "Conversation avec Thomas Guillemet",
             "date_of_issue": "2017-12-01",
             "image_href": "/images/3.png",
-            "path": "/pdf/FigureFigure03ThomasGuillemet.pdf"
+            "pages": {"prefix": "/images/3/3.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure03ThomasGuillemet.pdf",
+            "issue_path": "thomas_guillemet"
         },
         {
             "number": 4,
             "title": "Conversation avec Alice Guittard",
             "date_of_issue": "2018-01-01",
             "image_href": "/images/4.png",
-            "path": "/pdf/FigureFigure04AliceGuittard.pdf"
+            "pages": {"prefix": "/images/4/4.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure04AliceGuittard.pdf",
+            "issue_path": "alice_guittard"
         },
         {
             "number": 5,
             "title": "Conversation avec Février 2018",
             "date_of_issue": "2018-02-01",
             "image_href": "/images/5.png",
-            "path": "/pdf/FigureFigure05MarieHazard.pdf"
+            "pages": {"prefix": "/images/5/5.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure05MarieHazard.pdf",
+            "issue_path": "marie_hazard"
         },
         {
             "number": 6,
             "title": "Conversation avec Morgan Courtois",
             "date_of_issue": "2018-03-01",
             "image_href": "/images/6.png",
-            "path": "/pdf/FigureFigure06MorganCourtois.pdf"
+            "pages": {"prefix": "/images/6/6.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure06MorganCourtois.pdf",
+            "issue_path": "morgan_courtois"
         },
         {
             "number": 7,
             "title": "Conversation avec Tyler Eash",
             "date_of_issue": "2018-04-01",
             "image_href": "/images/7.png",
-            "path": "/pdf/FigureFigure07TylerEash.pdf"
+            "pages": {"prefix": "/images/7/7.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure07TylerEash.pdf",
+            "issue_path": "tyler_eash"
         },
         {
             "number": 8,
             "title": "Conversation avec Julien Creuzet",
             "date_of_issue": "2018-05-01",
             "image_href": "/images/8.png",
-            "path": "/pdf/FigureFigure08JulienCreuzet.pdf"
+            "pages": {"prefix": "/images/8/8.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure08JulienCreuzet.pdf",
+            "issue_path": "julien_creuzet"
         },
         {
             "number": 9,
             "title": "Conversation avec Marie Munk",
             "date_of_issue": "2018-06-01",
             "image_href": "/images/9.png",
-            "path": "/pdf/FigureFigure09MarieMunk.pdf"
+            "pages": {"prefix": "/images/9/9.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure09MarieMunk.pdf",
+            "issue_path": "marie_munk"
         },
         {
             "number": 10,
             "title": "Conversation avec Valentin Dommanget",
             "date_of_issue": "2018-07-01",
             "image_href": "/images/10.png",
-            "pages": {"prefix": "/images/10/10_", "sufix":".jpg", "first":1, "count": 5},
-            "path": "/pdf/FigureFigure10ValentinDommanget.pdf"
+            "pages": {"prefix": "/images/10/10.", "sufix":".jpg", "first":1, "count": 5},
+            "path": "/pdf/FigureFigure10ValentinDommanget.pdf",
+            "issue_path": "valentin_dommanget"
         },
         {
             "number": 11,
@@ -78,7 +97,8 @@
             "image_href": "/images/11/11.png",
             "bg_href": "/images/11/11_background.jpg",
             "pages": {"prefix": "/images/11/11_", "sufix":".jpg", "first":1, "count": 5},
-            "path": "/pdf/FigureFigure11BenElliot.pdf"
+            "path": "/pdf/FigureFigure11BenElliot.pdf",
+            "issue_path": "ben_elliot"
         },
         {
             "number": 12,
