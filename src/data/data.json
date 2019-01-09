@@ -77,6 +77,14 @@
             "image_href": "/images/11.png",
             "bg_href": "/images/11_background.jpg",
             "path": "/pdf/FigureFigure11BenElliot.pdf"
+        },
+        {
+            "number": 12,
+            "title": "Conversation avec Bianca Bondi",
+            "date_of_issue": "01/01/2019",
+            "image_href": "/images/12.png",
+            "bg_href": "/images/12_background.jpg",
+            "path": "/pdf/FigureFigure12BiancaBondi.pdf"
         }
     ],
     "about": {
