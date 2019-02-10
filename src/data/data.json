@@ -85,6 +85,14 @@
             "image_href": "/images/12.png",
             "bg_href": "/images/12_background.jpg",
             "path": "/pdf/FigureFigure12BiancaBondi.pdf"
+        },
+        {
+            "number": 13,
+            "title": "Conversation avec Jonathon Pêpe",
+            "date_of_issue": "01/02/2019",
+            "image_href": "/images/13.png",
+            "bg_href": "/images/13_background.jpg",
+            "path": "/pdf/FigureFigure13JonathanPepe.pdf"
         }
     ],
     "about": {
