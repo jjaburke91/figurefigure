@@ -101,6 +101,14 @@
             "image_href": "/images/14.png",
             "bg_href": "/images/14_background.jpg",
             "path": "/pdf/FigureFigure14AgataIngarden.pdf"
+        },
+        {
+            "number": 15,
+            "title": "Conversation avec Agata Ingarden",
+            "date_of_issue": "01/04/2019",
+            "image_href": "/images/15.png",
+            "bg_href": "/images/15_background.jpg",
+            "path": "/pdf/FigureFigure15MargotPietri.pdf"
         }
     ],
     "about": {
