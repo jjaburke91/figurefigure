@@ -5,26 +5,26 @@ import './_header.scss';
 
 const HEADER_ITEMS = [
     {
-        text: 'publication',
-        path: '/',
+        text: 'NEW',
+        path: '/new',
     },
     {
-        text: 'archives',
+        text: 'ARCHIVES',
         path: '/archive',
     },
     {
-        text: 'à propos',
+        text: 'À PROPOS',
         path: '/about',
     },
-    {
-        text: 'contact',
-        path: '/contact',
-    },
+
 ];
 
 const Header = () => (
     <header className="header font-secondary">
-        <nav>
+        <nav className="navContainer">
+            <div className="nav-item" id="sitename">
+                <Link to="/">FIGURE FIGURE</Link>
+            </div>
             <ul className="header__nav">
                 {HEADER_ITEMS.map((item, i)=> (
                     <li className="nav-item" key={`nav-item-${i}`}>

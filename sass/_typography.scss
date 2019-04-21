@@ -1,15 +1,33 @@
+@font-face {
+    font-family: 'TWOZARBII';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('TwoZarbii'),
+        url('./fonts/TWOZARBII-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Univers';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('Univers'),
+        url('./fonts/Univers') format('truetype');
+}
+
 body {
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'TwoZarbii', sans-serif;
     font-size: 20px;
     font-weight: normal;
     color: $color_text;
 }
 
 .font-secondary {
-    font-family: 'EB Garamond', serif;
+    font-family: 'TwoZarbii', serif;
     font-weight: normal;
 }
 .font-tertiary {
-    font-family: 'EB Garamond', serif;
+    font-family: 'TwoZarbii', serif;
     font-weight: normal;
 }
