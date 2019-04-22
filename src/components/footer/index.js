@@ -15,7 +15,7 @@ const Footer = () => (
             <div className="row">
                 <div className="col-12">
                     <div className="footer-content">
-                        <div class="bandef"><span>Ceci est un message défilant !</span></div>
+                        <div class="bandef"><span>NEW! PDF N°16 — CONVERSATION AVEC MATHILDE DENIZE</span></div>
                     </div>
                 </div>
             </div>
