@@ -15,18 +15,7 @@ const Footer = () => (
             <div className="row">
                 <div className="col-12">
                     <div className="footer-content">
-                        <a href="https://www.instagram.com/figurefigure.fr/"
-                           target="_blank" rel="noopener noreferrer">
-                            <Icon icon={Instagram} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR}/>
-                        </a>
-                        <a href="https://www.facebook.com/figurefigure.fr/"
-                           target="_blank" rel="noopener noreferrer">
-                            <Icon icon={Facebook} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR}/>
-                        </a>
-                        <a href="https://twitter.com/figurefigure_fr"
-                           target="_blank" rel="noopener noreferrer">
-                            <Icon icon={Twitter} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR}/>
-                        </a>
+                        <div class="bandef"><span>Ceci est un message défilant !</span></div>
                     </div>
                 </div>
             </div>

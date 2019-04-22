@@ -5,7 +5,6 @@
 }
 
 .footer-content {
-    text-align: center;
     font-size: 0 5px;
 
     a {
@@ -18,4 +17,27 @@
 
 .footer-homepage {
     margin-top: 40px;
+}
+
+.bandef{
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: marquee 10s linear infinite; /* Chrome, Safari, Opera */
+    animation: marquee 10s linear infinite; /* Vitesse de défilement */ 
+    animation-play-state: running;
+}
+
+/*  Arrêt du défilement au survol */
+.bandef:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes marquee {
+    0%  { text-indent: 100%; }
+    100% { text-indent: -300px; }
+}
+@keyframes marquee {
+    0%  { text-indent: 100%; }
+    100% { text-indent: -300px; }
 }
