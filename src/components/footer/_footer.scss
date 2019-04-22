@@ -2,6 +2,10 @@
     width: 100%;
     margin-top: 0px;
     margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid black;
 }
 
 .footer-content {
@@ -19,10 +23,10 @@
     margin-top: 40px;
 }
 
-.bandef{
+.bandef {
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: marquee 10s linear infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: marquee 10s linear infinite;
     animation: marquee 10s linear infinite; /* Vitesse de défilement */ 
     animation-play-state: running;
 }
