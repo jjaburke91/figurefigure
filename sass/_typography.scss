@@ -10,32 +10,32 @@
 @font-face {
     font-family: 'Univers';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     src:
         local('Univers'),
-        url('./fonts/UniversLTStd.otf') format('truetype');
+        url('./fonts/Univers-light-normal.ttf') format('truetype');
 }
 
 body {
     font-family: 'Univers', sans-serif;
     font-size: 20px;
-    font-weight: normal;
     color: $color_text;
+    font-weight: 200;
+
 }
 
 .font-secondary {
     font-family: 'Univers', sans-serif;
-    font-weight: normal;
+    font-weight: 200;
+
 }
 .font-tertiary {
     font-family: 'Univers', sans-serif;
-    font-weight: normal;
+    font-weight: 200;
 }
 
 #sitename {
     font-family: 'TWOZARBII', serif;
-    font-weight: normal;
     font-size: 20px;
-    font-weight: normal;
     color: $color_text;
 }
