@@ -5,12 +5,12 @@ import './_header.scss';
 
 const HEADER_ITEMS = [
     {
-        text: 'NEW',
-        path: '/new',
-    },
-    {
         text: 'ARCHIVES',
         path: '/archive',
+    },
+    {
+        text: 'ÉVÈNEMENTS',
+        path: '/contact',
     },
     {
         text: 'À PROPOS',

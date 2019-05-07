@@ -9,7 +9,6 @@ const AboutSheet = ({lines}) => (
         <h1 className="sheet_header font-secondary text-bold">Figure Figure</h1>
         {lines.map((line, i) => (
             <div className="sheet-line" key={i}>
-                <span className={"sheet-line__number text-bold font-secondary"}>{i+1} - </span>
                 <span className={"sheet-line__text font-tertiary"}>
                     {line}
                 </span>
