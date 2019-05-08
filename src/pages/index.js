@@ -9,8 +9,6 @@ const PAGE_TITLE = "Figure Figure";
 const IndexPage = props => {
     const items = props.data.allDataJson.edges[0].node.issues;
 
-    // const latestIssue = items && items[items.length -1];
-
     return (
         <main>
             <Helmet title={PAGE_TITLE} />

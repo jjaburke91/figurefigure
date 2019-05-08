@@ -1,34 +1,20 @@
 .footer {
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    position: absolute;
     bottom: 0;
-    background-color: white;
+    width: 100%;
+    display: block;
+    position: fixed;
     border-top: 1px solid black;
 }
 
-.footer-content {
-    font-size: 0 5px;
-
-    a {
-        margin: 0 10px;
-    }
-    p {
-        margin: 0;
-    }
-}
-
-.footer-homepage {
-    margin-top: 40px;
-}
-
 .bandef {
+    width: 100%;
+    background-color: white;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: marquee 13s linear infinite;
-    animation: marquee 13s linear infinite; /* Vitesse de défilement */ 
+    animation: marquee 13s linear infinite;
     animation-play-state: running;
+    font-size: 24px;
 }
 
 /*  Arrêt du défilement au survol */

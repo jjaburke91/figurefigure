@@ -15,13 +15,12 @@ const HEADER_ITEMS = [
     {
         text: 'À PROPOS',
         path: '/about',
-    },
-
+    }
 ];
 
 const Header = () => (
-    <header className="header font-secondary">
-        <nav className="navContainer">
+    <header className="row header font-secondary">
+        <nav className="navContainer col-12">
             <div className="nav-item" id="sitename">
                 <Link to="/">FIGURE FIGURE</Link>
             </div>

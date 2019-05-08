@@ -9,18 +9,13 @@ const ICON_HEIGHT = 26;
 const ICON_WIDTH = 26;
 const ICON_COLOR = 'black';
 
-const Footer = () => (
-    <footer className="footer">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="footer-content">
-                        <div class="bandef"><span>NEW! PDF N°16 — CONVERSATION AVEC MATHILDE DENIZE</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-);
+const Footer = ({issue}) => {
+
+    return (<div className="row"><footer className="footer mt-auto py-3">
+        
+            <div className="bandef"><a href={issue.path}>NEW! PDF N°{issue.number} — {issue.title.toUpperCase()}</a></div>
+        
+    </footer></div>)
+};
 
 export default Footer;

@@ -1,8 +1,7 @@
 html, body {
-    position: relative;
-    width: 100%;
+    overflow: hidden;
     height: 100%;
-    margin: 0;
+    max-height: 100%;
 }
 
 ul {
@@ -12,6 +11,10 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.vh-site {
+    height: calc(100vh - 80px);
 }
 
 .visually-hidden {

@@ -12,8 +12,13 @@ const WEBSITE_TITLE = "Figure Figure";
 const DEFAULT_IMAGE_URL = "https://figurefigure.fr/images/socials_img.jpg";
 const DEFAULT_URL = "https://figurefigure.fr/";
 
-const TemplateWrapper = ({ children }) => (
-    <div className="page-container">
+const TemplateWrapper = (props) => {
+    console.log("hello !!");
+    const issues = props.data.allDataJson.edges[0].node.issues;
+    const latestIssue = issues && issues[issues.length -1];
+
+    return (
+    <div className="container-fluid">
         <Helmet>
             <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900|Raleway" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" />
@@ -42,16 +47,35 @@ const TemplateWrapper = ({ children }) => (
             <meta name="theme-color" content="#ffffff" />
         </Helmet>
 
-        <Header/>
+            <Header/>
 
-        {children()}
+            {props.children()}
 
-        <Footer/>
+            <Footer issue={latestIssue} />
     </div>
-);
+    )
+};
 
 TemplateWrapper.propTypes = {
     children: PropTypes.func,
+    data: PropTypes.object
 };
 
 export default TemplateWrapper;
+
+export const pageQuery = graphql`
+  query FooterQuery {
+    allDataJson {
+      edges {
+        node {
+          issues {
+            number
+            title
+            date_of_issue
+            path
+          }
+        }
+      }
+    }
+  }
+`;
