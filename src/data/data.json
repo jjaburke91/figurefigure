@@ -6,7 +6,7 @@
             "date_of_issue": "2017-10-01",
             "pages": {"prefix": "/images/thumbnails/1/1.", "sufix":".jpeg", "first":1, "count": 42},
             "path": "/pdf/FigureFigure01RaphaelFabre.pdf",
-            "archive_img": "/images/archives/01.jpg",
+            "archive_img": "/images/archives/01.jpeg",
             "issue_path": "raphaël_fabre"
         },
         {
@@ -15,7 +15,7 @@
             "date_of_issue": "2017-11-01",
             "pages": {"prefix": "/images/thumbnails/2/2.", "sufix":".jpeg", "first":1, "count": 43},
             "path": "/pdf/FigureFigure02AuroreLeDuc.pdf",
-            "archive_img": "/images/archives/02.jpg",
+            "archive_img": "/images/archives/02.jpeg",
             "issue_path": "aurore_le_duc"
         },
         {
@@ -24,7 +24,7 @@
             "date_of_issue": "2017-12-01",
             "pages": {"prefix": "/images/thumbnails/3/3.", "sufix":".jpeg", "first":1, "count": 29},
             "path": "/pdf/FigureFigure03ThomasGuillemet.pdf",
-            "archive_img": "/images/archives/03.jpg",
+            "archive_img": "/images/archives/03.jpeg",
             "issue_path": "thomas_guillemet"
         },
         {
@@ -33,7 +33,7 @@
             "date_of_issue": "2018-01-01",
             "pages": {"prefix": "/images/thumbnails/4/4.", "sufix":".jpeg", "first":1, "count": 41},
             "path": "/pdf/FigureFigure04AliceGuittard.pdf",
-            "archive_img": "/images/archives/04.jpg",
+            "archive_img": "/images/archives/04.jpeg",
             "issue_path": "alice_guittard"
         },
         {
@@ -42,7 +42,7 @@
             "date_of_issue": "2018-02-01",
             "pages": {"prefix": "/images/thumbnails/5/5.", "sufix":".jpeg", "first":1, "count": 26},
             "path": "/pdf/FigureFigure05MarieHazard.pdf",
-            "archive_img": "/images/archives/05.jpg",
+            "archive_img": "/images/archives/05.jpeg",
             "issue_path": "marie_hazard"
         },
         {
@@ -51,7 +51,7 @@
             "date_of_issue": "2018-03-01",
             "pages": {"prefix": "/images/thumbnails/6/6.", "sufix":".jpeg", "first":1, "count": 36},
             "path": "/pdf/FigureFigure06MorganCourtois.pdf",
-            "archive_img": "/images/archives/06.jpg",
+            "archive_img": "/images/archives/06.jpeg",
             "issue_path": "morgan_courtois"
         },
         {
@@ -60,7 +60,7 @@
             "date_of_issue": "2018-04-01",
             "pages": {"prefix": "/images/thumbnails/7/7.", "sufix":".jpeg", "first":1, "count": 46},
             "path": "/pdf/FigureFigure07TylerEash.pdf",
-            "archive_img": "/images/archives/07.jpg",
+            "archive_img": "/images/archives/07.jpeg",
             "issue_path": "tyler_eash"
         },
         {
@@ -69,7 +69,7 @@
             "date_of_issue": "2018-05-01",
             "pages": {"prefix": "/images/thumbnails/8/8.", "sufix":".jpeg", "first":1, "count": 31},
             "path": "/pdf/FigureFigure08JulienCreuzet.pdf",
-            "archive_img": "/images/archives/08.jpg",
+            "archive_img": "/images/archives/08.jpeg",
             "issue_path": "julien_creuzet"
         },
         {
@@ -78,7 +78,7 @@
             "date_of_issue": "2018-06-01",
             "pages": {"prefix": "/images/thumbnails/9/9.", "sufix":".jpeg", "first":1, "count": 35},
             "path": "/pdf/FigureFigure09MarieMunk.pdf",
-            "archive_img": "/images/archives/09.jpg",
+            "archive_img": "/images/archives/09.jpeg",
             "issue_path": "marie_munk"
         },
         {
@@ -87,7 +87,7 @@
             "date_of_issue": "2018-07-01",
             "pages": {"prefix": "/images/thumbnails/10/10.", "sufix":".jpeg", "first":1, "count": 41},
             "path": "/pdf/FigureFigure10ValentinDommanget.pdf",
-            "archive_img": "/images/archives/10.jpg",
+            "archive_img": "/images/archives/10.jpeg",
             "issue_path": "valentin_dommanget"
         },
         {
@@ -95,10 +95,10 @@
             "title": "Conversation avec Ben Elliot",
             "date_of_issue": "2018-12-01",
             "image_href": "/images/11/11.png",
-            "bg_href": "/images/11/11_background.jpg",
+            "bg_href": "/images/11/11_background.jpeg",
             "pages": {"prefix": "/images/thumbnails/11/11.", "sufix":".jpeg", "first":1, "count": 29},
             "path": "/pdf/FigureFigure11BenElliot.pdf",
-            "archive_img": "/images/archives/11.jpg",
+            "archive_img": "/images/archives/11.jpeg",
             "issue_path": "ben_elliot"
         },
         {
@@ -106,8 +106,8 @@
             "title": "Conversation avec Bianca Bondi",
             "date_of_issue": "01/01/2019",
             "image_href": "/images/12.png",
-            "bg_href": "/images/12_background.jpg",
-            "archive_img": "/images/archives/12.jpg",
+            "bg_href": "/images/12_background.jpeg",
+            "archive_img": "/images/archives/12.jpeg",
             "path": "/pdf/FigureFigure12BiancaBondi.pdf"
         },
         {
@@ -115,8 +115,8 @@
             "title": "Conversation avec Jonathon Pêpe",
             "date_of_issue": "01/02/2019",
             "image_href": "/images/13.png",
-            "bg_href": "/images/13_background.jpg",
-            "archive_img": "/images/archives/13.jpg",
+            "bg_href": "/images/13_background.jpeg",
+            "archive_img": "/images/archives/13.jpeg",
             "path": "/pdf/FigureFigure13JonathanPepe.pdf"
         },
         {
@@ -124,8 +124,8 @@
             "title": "Conversation avec Agata Ingarden",
             "date_of_issue": "01/03/2019",
             "image_href": "/images/14.png",
-            "bg_href": "/images/14_background.jpg",
-            "archive_img": "/images/archives/14.jpg",
+            "bg_href": "/images/14_background.jpeg",
+            "archive_img": "/images/archives/14.jpeg",
             "path": "/pdf/FigureFigure14AgataIngarden.pdf"
         },
         {
@@ -134,7 +134,7 @@
             "date_of_issue": "01/04/2019",
             "image_href": "/images/15.png",
             "bg_href": "/FF_IMAGE_SITE_01.jpg",
-            "archive_img": "/images/archives/15.jpg",
+            "archive_img": "/images/archives/15.jpeg",
             "path": "/pdf/FigureFigure15MargotPietri.pdf"
         }
     ],
