@@ -11,6 +11,16 @@
     article {
         display: inline;
     }
+
+    li:before {
+        content: '+';
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+
+    li {
+        padding-top: 18px;
+    }
 }
 
 .event-img-grid {

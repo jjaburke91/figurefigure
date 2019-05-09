@@ -3,7 +3,7 @@
 import React from 'react';
 import { withPrefix } from 'gatsby-link';
 import Helmet from 'react-helmet';
-import { showMonthDate } from '../components/utils';
+import { showMonthDate, showDayDate } from '../components/utils';
 import './event.scss';
 
 const PAGE_TITLE = 'Archives | Figure Figure';
@@ -51,10 +51,10 @@ class EventsPage extends React.Component {
           <ul>
             {this.events.map((event, i) => (
               <li key={`event item ${i}`} onMouseEnter={this.showEvent.bind(this, event)}>
-              <div className="event-descr">
-                <span className="event-date">{showMonthDate(event.date)}</span>
-                <span className="event-title">{event.title}</span>
-              </div>
+                <span className="event-descr">
+                  <span className="event-date">{showDayDate(event.date)}</span>
+                  <span className="event-title">{event.title}</span>
+                </span>
               </li>
             ))}
           </ul>

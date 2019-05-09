@@ -32,7 +32,7 @@ class ArchivePage extends React.Component {
     return (
       <main className="row">
         <Helmet title={PAGE_TITLE} />
-        <div className="col-md-auto issue-grid vh-site">
+        <div className="col-auto issue-grid vh-site">
           <ul>
             {this.issues.sort((a, b) => b.number - a.number).map((issue, i) => (
               <li key={`archive item ${i}`} onMouseEnter={this.showIssue.bind(this, issue)}>
@@ -43,10 +43,10 @@ class ArchivePage extends React.Component {
             ))}
           </ul>
         </div>
-        <div className="col-8 vh-site">
+        <div className="col vh-site">
           <img ref={this.bg} className="issue__img h-100" src={withPrefix(this.currentIssue.archive_img)} alt={this.currentIssue.title} />
         </div>
-        <div className="col-md-auto">
+        <div className="col-auto">
           <Icon icon={Share} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR} />
           <Icon icon={Download} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR} />
         </div>
