@@ -35,6 +35,7 @@ export const pageQuery = graphql`
               count
             }
             path
+            bg_href
           }
         }
       }

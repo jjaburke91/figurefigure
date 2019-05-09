@@ -21,7 +21,7 @@ const Issue = ({issue}) => {
     return (
         <article className={`issue`}>
             <a href={withPrefix(issue.path)} target="_blank">
-                + N°{issue.number} — {formatedDate}
+                N°{issue.number} — {formatedDate}
                 <br/> 
                 {issue.title.toUpperCase()}
             </a>

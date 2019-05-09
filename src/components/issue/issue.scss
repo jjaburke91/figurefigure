@@ -10,8 +10,8 @@
     box-sizing: border-box;
 
     width: 238px;
-    margin: 2px 2px;*/
-    padding: 11px 16px;
+    margin: 2px 2px;
+    padding: 11px 16px;*/
 }
 
 .issue__img {
@@ -31,9 +31,23 @@
     flex-wrap: wrap;
 
     padding-top: 8px;*/
-
+/*
     ul {
         padding-inline-start: 0;
+    }*/
+
+    article {
+        display: inline;
+    }
+
+    li:before {
+        content: '+';
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+
+    li {
+        padding-top: 8px;
     }
 }
 .issue-grid__item {
