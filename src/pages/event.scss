@@ -1,0 +1,31 @@
+.event {}
+
+.event-img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.event-grid {
+    overflow: scroll;
+    article {
+        display: inline;
+    }
+}
+
+.event-img-grid {
+    overflow: scroll;
+
+}
+
+.event-date {
+
+}
+
+.event-title {
+    float: right;
+}
+
+.event-descr {
+    margin-bottom: 16px;
+}

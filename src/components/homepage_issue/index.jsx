@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withPrefix } from 'gatsby-link';
+import { showMonthDate } from '../utils';
 
 import './homepage_issue.scss';
 
@@ -9,7 +10,7 @@ const getShareUri = (issue) => {
   return `https://facebook.com/sharer.php?u=${encodeURIComponent(path)}`;
 };
 
-const monthNames = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+//const monthNames = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
 
 class HomepageIssue extends React.Component {
   constructor(props) {
@@ -56,7 +57,7 @@ class HomepageIssue extends React.Component {
     const footerClassName = 'footer-content ' + (this.homepage ? 'footer-homepage' : '');
 
     const d = new Date(this.currentIssue.date_of_issue);
-    const footerDate = this.homepage ? '' : <p>Numéro {this.currentIssue.number} – {monthNames[d.getUTCMonth()]} {d.getFullYear()}</p>;
+    const footerDate = this.homepage ? '' : <p>Numéro {this.currentIssue.number} – {showMonthDate(d)/*monthNames[d.getUTCMonth()]} {d.getFullYear()*/}</p>;
     const footerTitle = this.homepage ? '' : <p>{this.currentIssue.title}</p>;
 
     return (

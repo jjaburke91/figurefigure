@@ -1,4 +1,8 @@
 {
+    "site": {
+        "title": "Figure Figure",
+        "description": "Figure Figure est une revue digitale qui donne la parole aux artistes émergents. Raphaël Fabre, Aurore Le Duc, Thomas Guillemet, Alice Guittard, Marie Hazard, Morgan Courtois, Tyler Eash, Julien Creuzet, Marie Munk, Valentin Dommanget, Ben Elliot..."
+    },
     "issues": [
         {
             "number": 1,
@@ -142,12 +146,12 @@
         {
             "title": "Figure Figure x Mathilde Denize x Fondation d'entreprise Ricard",
             "date": "2019-06-06",
-            "img": "/images/events/01.jpeg",
+            "img": "/images/events/01.jpeg"
         },
         {
             "title": "Jeune Création 69e édition x Figure Figure",
             "date": "2019-12",
-            "img": "/images/events/02.jpeg",
+            "img": "/images/events/02.jpeg"
         }
     ],
     "about": {

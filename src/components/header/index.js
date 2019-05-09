@@ -10,7 +10,7 @@ const HEADER_ITEMS = [
   },
   {
     text: 'ÉVÈNEMENTS',
-    path: '/contact',
+    path: '/events',
   },
   {
     text: 'À PROPOS',
