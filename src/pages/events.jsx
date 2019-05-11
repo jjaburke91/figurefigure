@@ -34,14 +34,14 @@ class EventsPage extends React.Component {
 
   render() {
     return (
-      <main className="row">
+      <main className="row no-gutters">
         <Helmet title={PAGE_TITLE} />
         <div ref={this.imgList} className="col-6 vh-site event-img-grid">
           {this.events.map((event, i) => (
             <div ref={event.ref} key={`event img ${i}`}>
               {event.pdf
                 ? (
-                  <object width="100%" height="500" type="application/pdf" data={`${withPrefix(event.pdf)}?#zoom=95&scrollbar=0&toolbar=0&navpanes=0`}>
+                  <object width="100%" height="500" type="application/pdf" data={`${withPrefix(event.pdf)}?#zoom=98&scrollbar=0&toolbar=0&navpanes=0`}>
                     <p>Insert your error message here, if the PDF cannot be displayed.</p>
                   </object>
                 )

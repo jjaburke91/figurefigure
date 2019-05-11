@@ -7,6 +7,7 @@
 }
 
 .event-grid {
+    overflow-x: hidden;
     overflow-y: scroll;
     article {
         display: inline;
@@ -24,8 +25,8 @@
 }
 
 .event-img-grid {
+    overflow-x: hidden;
     overflow-y: scroll;
-
 }
 
 .event-date {

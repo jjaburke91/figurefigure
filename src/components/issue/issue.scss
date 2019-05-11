@@ -1,11 +1,9 @@
-.issue {}
-
-.issue__img {
-    margin: 0 auto;
-    display: block;
+.issue_img {
+    vertical-align: top;
 }
 
 .issue-grid {
+    overflow-x: hidden;
     overflow-y: scroll;
     article {
         display: inline;
@@ -23,6 +21,14 @@
 }
 .issue-grid__item {
     display: flex;
+}
+
+.issue-content {
+    text-align: center;
+
+    .issue-btn-list {
+        display: inline-block;
+    }
 }
 
 @media (max-width: 767px) {
