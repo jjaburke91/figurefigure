@@ -17,7 +17,7 @@ const TemplateWrapper = ({ data, children }) => {
   const latestIssue = issues && issues[issues.length - 1];
 
   return (
-    <div className="container-fluid">
+    <React.Fragment>
       <Helmet>
         <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900|Raleway" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" />
@@ -45,11 +45,13 @@ const TemplateWrapper = ({ data, children }) => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Helmet>
-
       <Header />
-      {children()}
-      <Footer issue={latestIssue} />
-    </div>
+
+      <div className="container-fluid">
+        {children()}
+        <Footer issue={latestIssue} />
+      </div>
+    </React.Fragment>
   );
 };
 

@@ -4,6 +4,11 @@
     display: block;
     position: fixed;
     border-top: 1px solid black;
+
+    a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
 .bandef {
