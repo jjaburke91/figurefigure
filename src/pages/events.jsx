@@ -52,7 +52,7 @@ class EventsPage extends React.Component {
                 <span className="event-title col">
                   {event.title}
                   <br />
-                  {event.subtitle}
+                  {event.subtitle.toUpperCase()}
                 </span>
               </div>
             </div>
@@ -67,7 +67,7 @@ class EventsPage extends React.Component {
                   <span className="event-title">
                     {event.title}
                     <br />
-                    {event.subtitle}
+                    {event.subtitle.toUpperCase()}
                   </span>
                 </span>
               </li>
