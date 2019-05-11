@@ -3,7 +3,7 @@
 import React from 'react';
 import { withPrefix } from 'gatsby-link';
 import Helmet from 'react-helmet';
-import { showMonthDate, showDayDate } from '../components/utils';
+import { showDayDate } from '../components/utils';
 import './event.scss';
 
 const PAGE_TITLE = 'Archives | Figure Figure';
@@ -18,18 +18,38 @@ class EventsPage extends React.Component {
     });
     this.events = data.events.sort((a, b) => b.date - a.date);
     this.currentEvent = this.events.length ? this.events[this.events.length - 1] : undefined;
-    //this.imgList = React.createRef();
   }
 
   showEvent(event) {
-    //this.bg.current.src = withPrefix(issue.archive_img);
-    //this.bg.current.alt = issue.title;
-    //ref.current.scrollIntoView({behavior: 'smooth'});
     this.scroll(event.ref);
   }
 
   scroll(ref) {
     ref.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  getImage(event) {
+    const img = <img className="event-img" src={withPrefix(event.img)} alt={event.title} />;
+    return event.pdf ? <a href={withPrefix(event.pdf)}>{img}</a> : img;
+  }
+
+  getItem(event, i) {
+    const content = (
+      <span className="event-descr">
+        <span className="event-date">{showDayDate(event.date)}</span>
+        <span className="event-title">
+          {event.title}
+          <br />
+          {event.subtitle.toUpperCase()} | Télécharger
+        </span>
+      </span>
+    );
+
+    return (
+      <li key={`event item ${i}`} onMouseEnter={this.showEvent.bind(this, event)}>
+        {event.pdf ? <a href={withPrefix(event.pdf)}>{content}</a> : content}
+      </li>
+    );
   }
 
   render() {
@@ -39,39 +59,13 @@ class EventsPage extends React.Component {
         <div ref={this.imgList} className="col-6 vh-site event-img-grid">
           {this.events.map((event, i) => (
             <div ref={event.ref} key={`event img ${i}`}>
-              {event.pdf
-                ? (
-                  <object width="100%" height="500" type="application/pdf" data={`${withPrefix(event.pdf)}?#zoom=98&scrollbar=0&toolbar=0&navpanes=0`}>
-                    <p>Insert your error message here, if the PDF cannot be displayed.</p>
-                  </object>
-                )
-                : <img className="event-img" src={withPrefix(event.img)} alt={event.title} />
-              }
-              <div className="event-descr row">
-                <span className="event-date col">{showMonthDate(event.date)}</span>
-                <span className="event-title col">
-                  {event.title}
-                  <br />
-                  {event.subtitle.toUpperCase()}
-                </span>
-              </div>
+              {this.getImage(event)}
             </div>
           ))}
         </div>
         <div className="col-6 vh-site event-grid">
           <ul>
-            {this.events.map((event, i) => (
-              <li key={`event item ${i}`} onMouseEnter={this.showEvent.bind(this, event)}>
-                <span className="event-descr">
-                  <span className="event-date">{showDayDate(event.date)}</span>
-                  <span className="event-title">
-                    {event.title}
-                    <br />
-                    {event.subtitle.toUpperCase()}
-                  </span>
-                </span>
-              </li>
-            ))}
+            {this.events.map((event, i) => this.getItem(event, i))}
           </ul>
         </div>
       </main>
@@ -90,6 +84,7 @@ export const pageQuery = graphql`
             title
             subtitle
             date
+            img
             pdf
           }
         }
