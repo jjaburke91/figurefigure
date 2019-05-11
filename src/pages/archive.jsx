@@ -18,8 +18,8 @@ class ArchivePage extends React.Component {
   constructor(props) {
     super(props);
     const data = props.data.allDataJson.edges[0].node;
-    this.issues = data.issues;
-    this.currentIssue = this.issues.length ? this.issues[this.issues.length - 1] : undefined;
+    this.issues = data.issues.sort((a, b) => b.number - a.number);
+    this.currentIssue = this.issues.length ? this.issues[0] : undefined;
     this.bg = React.createRef();
   }
 
@@ -34,8 +34,8 @@ class ArchivePage extends React.Component {
         <Helmet title={PAGE_TITLE} />
         <div className="col-auto issue-grid vh-site">
           <ul>
-            {this.issues.sort((a, b) => b.number - a.number).map((issue, i) => (
-              <li key={`archive item ${i}`} onMouseEnter={this.showIssue.bind(this, issue)}>
+            {this.issues.map(issue => (
+              <li key={`archive item ${issue.number}`} onMouseEnter={this.showIssue.bind(this, issue)}>
                 <Issue
                   issue={issue}
                 />

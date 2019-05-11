@@ -5,12 +5,12 @@ import { showMonthDate } from '../utils';
 
 import './homepage_issue.scss';
 
+/*
 const getShareUri = (issue) => {
   const path = `https://figurefigure.fr/#!publication/${issue.number}`;
   return `https://facebook.com/sharer.php?u=${encodeURIComponent(path)}`;
 };
-
-//const monthNames = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+*/
 
 class HomepageIssue extends React.Component {
   constructor(props) {
@@ -20,12 +20,12 @@ class HomepageIssue extends React.Component {
     this.share = React.createRef();
     this.homepage = true;
     const latestIssue = props.issues && props.issues[props.issues.length - 1];
-    /*const splits = document.location.hash.substring(1).split('?');
+    /* const splits = document.location.hash.substring(1).split('?');
     const psplits = splits[0].split('/');
     const currentNumber = psplits.length > 1 ? Number(psplits[1]) : latestIssue.number;
-    this.firstPage = 0;*/
+    this.firstPage = 0; */
     this.currentIssue = latestIssue;
-    /*props.issues.sort((a, b) => b.number - a.number).map((issue, i) => {
+    /* props.issues.sort((a, b) => b.number - a.number).map((issue, i) => {
         const p = issue.pages;
         if (p) {
             const pageCount = this.homepage ? 5 : p.count;
@@ -41,7 +41,7 @@ class HomepageIssue extends React.Component {
             this.firstPage = i;
             this.currentIssue = this.itemIssue[i];
             break
-        }*/
+        } */
   }
 
   /*setIssuePage(issue) {
@@ -60,8 +60,7 @@ class HomepageIssue extends React.Component {
     const footerDate = this.homepage ? '' : <p>Numéro {this.currentIssue.number} – {showMonthDate(d)/*monthNames[d.getUTCMonth()]} {d.getFullYear()*/}</p>;
     const footerTitle = this.homepage ? '' : <p>{this.currentIssue.title}</p>;
 
-    return (
-      <article>
+    /*
         <div className="text-center footer">
           <div className={footerClassName}>
             {footerDate}
@@ -69,7 +68,13 @@ class HomepageIssue extends React.Component {
             <a id="download" ref={this.download} href={withPrefix(this.currentIssue.path)}>Télécharger</a> | <a id="share" ref={this.share} target="_blank" href={getShareUri(this.currentIssue)}>Partager</a>
           </div>
         </div>
-        <img className="vh-site issue--full-height" src={withPrefix(this.currentIssue.bg_href)} />
+        */
+
+    return (
+      <article>
+        <a href={withPrefix(this.currentIssue.path)}>
+          <img className="vh-site issue--full-height" src={withPrefix(this.currentIssue.bg_href)} alt={this.currentIssue.title} />
+        </a>
       </article>
     );
   }

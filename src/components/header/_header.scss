@@ -2,25 +2,6 @@
     border-bottom: 1px solid black;
 }
 
-/*
-.navContainer {
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0 4px 0;
-    text-align: center;
-    font-size: 24px;
-}
-
-.header__nav {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    justify-content: space-around;
-    padding-inline-start: 0;
-    margin: 0;
-}
-*/
-
 .navbar-light .navbar-nav .nav-link {
     color: black !important;
 }
@@ -29,15 +10,11 @@
     line-height: 24px;
     font-size: 24px;
 }
-/*
-.nav-item a {
-    padding: 1px 3px;
-}
-*/
+
 .navbar-brand {
     max-width: 300px;
     padding: 0 !important;
-    margin: 12px 8px 0 32px !important
+    margin: 10px 8px 0 32px !important
 }
 
 @media (max-width: 767px) {
