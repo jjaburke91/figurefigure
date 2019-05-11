@@ -6,12 +6,9 @@ import './sheet.scss';
 
 const AboutSheet = ({ lines }) => (
   <div className="sheet sheet-bg">
-    <h1 className="sheet_header font-secondary text-bold">Figure Figure</h1>
     {lines.map((line, i) => (
       <div className="sheet-line" key={i}>
-        <span className="sheet-line__text font-tertiary">
-          {line}
-        </span>
+        <span className="sheet-line__text" dangerouslySetInnerHTML={{ __html: line }} />
       </div>
     ))}
   </div>

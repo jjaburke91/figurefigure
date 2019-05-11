@@ -8,24 +8,8 @@ ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .vh-site {
     height: calc(100vh - 82px);
-}
-
-.visually-hidden {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
 }
 
 .text-uppercase {
@@ -33,19 +17,4 @@ a {
 }
 .text-bold {
     font-weight: bold;
-}
-.text-center {
-    text-align: center;
-}
-
-.cover  {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -9999;
-    background-attachment: fixed, fixed;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
 }

@@ -9,9 +9,7 @@
 .event-grid {
     overflow-x: hidden;
     overflow-y: scroll;
-    article {
-        display: inline;
-    }
+    padding-right: 16px !important;
 
     li:before {
         content: '+';
