@@ -14,11 +14,8 @@ const AboutPage = ({ data }) => {
     <main>
       <Helmet title={PAGE_TITLE} />
 
-      <div className="sheets-list">
+      <div className="sheets-list vh-site">
         <AboutSheet lines={node.about.french} />
-      </div>
-
-      <div className="sheets-list">
         <div className="sheet sheet--contact text-center sheet-bg">
           <div className="contact-section">
             <h2 className="contact-section__header font-secondary text-bold">Direction de publication</h2>

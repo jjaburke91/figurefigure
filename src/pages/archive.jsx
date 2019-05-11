@@ -10,8 +10,7 @@ import Share from '../components/icon/share.icon';
 import Download from '../components/icon/download.icon';
 
 const PAGE_TITLE = 'Archives | Figure Figure';
-const ICON_HEIGHT = 48;
-const ICON_WIDTH = 48;
+const ICON_SIZE = 32;
 const ICON_COLOR = 'black';
 
 const getShareUri = (issue) => {
@@ -56,11 +55,11 @@ class ArchivePage extends React.Component {
           <img ref={this.bg} className="h-100 issue_img" src={withPrefix(this.currentIssue.archive_img)} alt={this.currentIssue.title} />
           <span className="h-100 issue-btn-list">
             <a className="btn" ref={this.download} target="_blank" href={withPrefix(this.currentIssue.path)} download>
-              <Icon icon={Download} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR} />
+              <Icon icon={Download} width={ICON_SIZE} height={ICON_SIZE} fill={ICON_COLOR} />
             </a>
             <br />
             <a className="btn" ref={this.share} target="_blank" href={getShareUri(this.currentIssue)}>
-              <Icon icon={Share} width={ICON_WIDTH} height={ICON_HEIGHT} fill={ICON_COLOR} />
+              <Icon icon={Share} width={ICON_SIZE} height={ICON_SIZE} fill={ICON_COLOR} />
             </a>
           </span>
         </div>

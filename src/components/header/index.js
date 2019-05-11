@@ -21,7 +21,7 @@ const HEADER_ITEMS = [
 
 const Header = () => (
   <header className="header font-secondary">
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-md navbar-light">
       <div className="navbar-brand" id="sitename">
         <Link to="/">FIGURE FIGURE</Link>
       </div>

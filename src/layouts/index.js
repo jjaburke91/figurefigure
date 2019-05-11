@@ -47,10 +47,8 @@ const TemplateWrapper = ({ data, children }) => {
       </Helmet>
       <Header />
 
-      <div className="container-fluid">
-        {children()}
-        <Footer issue={latestIssue} />
-      </div>
+      {children()}
+      <Footer issue={latestIssue} />
     </React.Fragment>
   );
 };

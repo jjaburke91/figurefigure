@@ -10,15 +10,13 @@ const ICON_WIDTH = 26;
 const ICON_COLOR = 'black';
 
 const Footer = ({ issue }) => (
-  <div className="row">
-    <footer className="footer mt-auto py-3">
-      <a href={issue.path}>
-        <div className="bandef font-secondary">
-          NEW! PDF N°{issue.number} — {issue.title.toUpperCase()}
-        </div>
-      </a>
-    </footer>
-  </div>
+  <footer className="footer mt-auto py-3">
+    <a href={issue.path}>
+      <div className="bandef font-secondary">
+        NEW! PDF N°{issue.number} — {issue.title.toUpperCase()}
+      </div>
+    </a>
+  </footer>
 );
 
 export default Footer;
