@@ -109,6 +109,14 @@
             "image_href": "/images/15.png",
             "bg_href": "/images/15_background.jpg",
             "path": "/pdf/FigureFigure15MargotPietri.pdf"
+        },
+        {
+            "number": 16,
+            "title": "Conversation avec Mathilde Deniz",
+            "date_of_issue": "01/05/2019",
+            "image_href": "/images/16.png",
+            "bg_href": "/images/16_background.jpg",
+            "path": "/pdf/FigureFigure16MathildeDenize.pdf"
         }
     ],
     "about": {
