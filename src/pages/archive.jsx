@@ -52,7 +52,9 @@ class ArchivePage extends React.Component {
           </ul>
         </div>
         <div className="col vh-site issue-content">
-          <img ref={this.bg} className="h-100 issue_img" src={withPrefix(this.currentIssue.archive_img)} alt={this.currentIssue.title} />
+          <a href={withPrefix(this.currentIssue.path)}>
+            <img ref={this.bg} className="h-100 issue_img" src={withPrefix(this.currentIssue.archive_img)} alt={this.currentIssue.title} />
+          </a>
           <span className="h-100 issue-btn-list">
             <a className="btn" ref={this.download} target="_blank" href={withPrefix(this.currentIssue.path)} download>
               <Icon icon={Download} width={ICON_SIZE} height={ICON_SIZE} fill={ICON_COLOR} />

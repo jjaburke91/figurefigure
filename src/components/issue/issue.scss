@@ -28,6 +28,11 @@
 
     .issue-btn-list {
         display: inline-block;
+        margin-top: 16px;
+
+        .btn {
+            margin-bottom: 8px;
+        }
     }
 }
 
