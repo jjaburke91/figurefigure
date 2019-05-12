@@ -10,7 +10,7 @@ import Share from '../components/icon/share.icon';
 import Download from '../components/icon/download.icon';
 
 const PAGE_TITLE = 'Archives | Figure Figure';
-const ICON_SIZE = 32;
+const ICON_SIZE = 24;
 const ICON_COLOR = 'black';
 
 const getShareUri = (issue) => {
