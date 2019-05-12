@@ -3,31 +3,39 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   siteMetadata: {
-    title: `Figure Figure`,
+    title: 'Figure Figure',
   },
   plugins: [
-    `gatsby-plugin-react-next`,
-    `gatsby-plugin-react-helmet`,
-    `svgo`,
+    'gatsby-plugin-react-next',
+    'gatsby-plugin-react-helmet',
+    'svgo',
     {
-      resolve: `gatsby-plugin-postcss-sass`,
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-131386344-1',
+        anonymize: false,
+        respectDNT: false,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-postcss-sass',
       options: {
         postCssPlugins: [
           pixrem(),
           autoprefixer({
-            browsers: ['last 2 versions']
-          })
+            browsers: ['last 2 versions'],
+          }),
         ],
-        precision: 8
-      }
+        precision: 8,
+      },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `data`,
+        name: 'data',
         path: `${__dirname}/src/data/`,
       },
     },
-    `gatsby-transformer-json`
+    'gatsby-transformer-json',
   ],
 };

@@ -46,18 +46,9 @@ export const pageQuery = graphql`
       edges {
         node {
           contact {
-            director {
-              name
-              email
-            }
-            artist {
-              name
-              email
-            }
-            writer {
-              name
-              email
-            }
+            title
+            name
+            email
           }
         }
       }

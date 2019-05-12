@@ -44,9 +44,7 @@ class ArchivePage extends React.Component {
           <ul>
             {this.issues.map(issue => (
               <li key={`archive item ${issue.number}`} onMouseEnter={this.showIssue.bind(this, issue)}>
-                <Issue
-                  issue={issue}
-                />
+                <Issue issue={issue} />
               </li>
             ))}
           </ul>
