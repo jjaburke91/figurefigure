@@ -1,6 +1,5 @@
 const debug = require('debug')('api');
 
-//const Express = require('express');
 const serveStatic = require('serve-static');
 const compression = require('compression');
 const helmet = require('helmet');
@@ -26,7 +25,7 @@ module.exports = (app) => {
     res.setHeader('Access-Control-Allow-Credentials', true);
 
     if (process.env.NODE_ENV !== 'production') {
-      res.setHeader('X-Robots-Tag', "noindex, nofollow");
+      res.setHeader('X-Robots-Tag', 'noindex, nofollow');
     }
 
     next();

@@ -1,6 +1,6 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
 import Link from 'gatsby-link';
-import 'bootstrap/js/dist/collapse';
 
 import './_header.scss';
 
@@ -21,15 +21,11 @@ const HEADER_ITEMS = [
 
 const Header = () => (
   <header className="header font-secondary">
-    <nav className="navbar navbar-expand-md navbar-light">
-      <div className="navbar-brand" id="sitename">
-        <Link to="/">FIGURE FIGURE</Link>
-      </div>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Menu">
-        <span className="navbar-toggler-icon"></span>
-      </button>
+    <Navbar bg="light" expand="md">
+      <Navbar.Brand id="sitename" href="/">FIGURE FIGURE</Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarToggler" />
 
-      <div className="collapse navbar-collapse" id="navbarToggler">
+      <Navbar.Collapse id="navbarToggler">
         <ul className="navbar-nav nav-fill w-100">
           {HEADER_ITEMS.map((item, i) => (
             <li className="nav-item" key={`nav-item-${i}`}>
@@ -37,8 +33,8 @@ const Header = () => (
             </li>
           ))}
         </ul>
-      </div>
-    </nav>
+      </Navbar.Collapse>
+    </Navbar>
   </header>
 );
 

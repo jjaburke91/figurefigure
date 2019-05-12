@@ -10,6 +10,6 @@ require('./config/express')(app);
 // start app
 app.listen(port, (error) => {
   if (!error) {
-    debug(`📡  Running on port: ${port}`);
+    console.log(`📡  Running on port: ${port}`);
   }
 });
