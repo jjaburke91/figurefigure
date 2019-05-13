@@ -37,7 +37,7 @@ const AboutPage = ({ data }) => {
                         <input type="text" name="b_0e476a01d6e5c29b2f4b5d9f3_af50262d4a" tabIndex="-1" />
                       </div>
                       <div className="input-group-append">
-                        <input type="submit" value=" ! " name="subscribe" id="mc-embedded-subscribe" className="btn btn-dark" />
+                        <input type="submit" value="!" name="subscribe" id="mc-embedded-subscribe" className="btn btn-dark" />
                       </div>
                     </div>
                   </div>
