@@ -140,6 +140,15 @@
             "bg_href": "/FF_IMAGE_SITE_01.jpg",
             "archive_img": "/images/archives/15.jpeg",
             "path": "/pdf/FigureFigure15MargotPietri.pdf"
+        },
+        {
+            "number": 16,
+            "title": "Conversation avec Mathilde Denize",
+            "date_of_issue": "01/05/2019",
+            "image_href": "/images/16.png",
+            "bg_href": "/FF_IMAGE_SITE_01.jpg",
+            "archive_img": "/images/archives/16.jpeg",
+            "path": "/pdf/FigureFigure16MathildeDenize.pdf"
         }
     ],
     "events": [
@@ -153,8 +162,8 @@
     ],
     "about": {
         "presentation": [
-            "<span class='tt'>FIGURE FIGURE</span> est une revue exclusivement numérique fondée en 2017 spécialisée dans la jeune création contemporaine. Chaque numéro prend la forme d’un entretien-fleuve avec un artiste émergent. Les publications sont mensuelles et disponibles en libre téléchargement.", 
-            "<span class='tt'>FIGURE FIGURE</span> est aussi une association loi 1901 fondée en janvier 2019 visant à promouvoir la jeune création en lui donnant la parole, en lui offrant un espace de dialogue, de réflexion et de médiation."
+            "Figure Figure est une revue exclusivement numérique fondée en 2017 spécialisée dans la jeune création contemporaine. Chaque numéro prend la forme d’un entretien-fleuve avec un artiste émergent. Les publications sont mensuelles et disponibles en libre téléchargement.", 
+            "Figure Figure est aussi une association loi 1901 fondée en janvier 2019 visant à promouvoir la jeune création en lui donnant la parole, en lui offrant un espace de dialogue, de réflexion et de médiation."
         ]
     },
     "contact": [
@@ -176,7 +185,7 @@
         {
             "title": "Direction artistique du site web",
             "name": "Thomas Guillemet"
-        },
+        },        
         {
             "title": "Conception du site web",
             "name": "Adrien Béraud"
