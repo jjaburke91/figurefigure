@@ -22,7 +22,7 @@ const HEADER_ITEMS = [
 const Header = () => (
   <header className="header font-secondary">
     <Navbar bg="light" expand="md">
-      <Navbar.Brand id="sitename" href="/">FIGURE FIGURE</Navbar.Brand>
+      <Link id="sitename" to="/" className="navbar-brand">FIGURE FIGURE</Link>
       <Navbar.Toggle aria-controls="navbarToggler" />
 
       <Navbar.Collapse id="navbarToggler">
