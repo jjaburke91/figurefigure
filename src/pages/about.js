@@ -28,13 +28,13 @@ const AboutPage = ({ data }) => {
 
             <div className="sheet share-buttons">
               <div id="mc_embed_signup">
-                <form action="https://figurefigure.us20.list-manage.com/subscribe/post?u=0e476a01d6e5c29b2f4b5d9f3&amp;id=af50262d4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate form-inline" target="_blank" novalidate>
+                <form action="https://figurefigure.us20.list-manage.com/subscribe/post?u=0e476a01d6e5c29b2f4b5d9f3&amp;id=af50262d4a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate form-inline" target="_blank" noValidate>
                   <div id="mc_embed_signup_scroll">
-                    <label className="my-3 mr-2" forHtml="mce-EMAIL"><p>NEWSLETTER</p></label>
+                    <label className="my-3 mr-2" htmlFor="mce-EMAIL"><p>NEWSLETTER</p></label>
                     <div className="input-group">
-                      <input type="email" name="EMAIL" className="email form-control" id="mce-EMAIL" placeholder="Addresse email" autoComplete required />
+                      <input type="email" name="EMAIL" className="email form-control" id="mce-EMAIL" placeholder="Addresse email" autoComplete="email" required />
                       <div className="d" aria-hidden="true">
-                        <input type="text" name="b_0e476a01d6e5c29b2f4b5d9f3_af50262d4a" tabIndex="-1" value="" />
+                        <input type="text" name="b_0e476a01d6e5c29b2f4b5d9f3_af50262d4a" tabIndex="-1" />
                       </div>
                       <div className="input-group-append">
                         <input type="submit" value=" ! " name="subscribe" id="mc-embedded-subscribe" className="btn btn-dark" />
