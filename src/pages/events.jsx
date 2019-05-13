@@ -56,14 +56,14 @@ class EventsPage extends React.Component {
     return (
       <main className="row no-gutters">
         <Helmet title={PAGE_TITLE} />
-        <div ref={this.imgList} className="col-6 vh-site event-img-grid">
+        <div ref={this.imgList} className="col-md-6 vh-site event-img-grid">
           {this.events.map((event, i) => (
             <div ref={event.ref} key={`event img ${i}`}>
               {this.getImage(event)}
             </div>
           ))}
         </div>
-        <div className="col-6 vh-site event-grid">
+        <div className="col-md-6 vh-site event-grid">
           <ul>
             {this.events.map((event, i) => this.getItem(event, i))}
           </ul>
