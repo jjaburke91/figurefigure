@@ -1,7 +1,14 @@
+@import '../../../sass/settings';
+
+.issue--container {
+    text-align: center;
+    line-height: $vh-site;
+}
 
 .issue--full-height {
-    margin: auto;
-    display: block;
+    /*margin: auto;
+    display: block;*/
     max-height: 100%;
     max-width: 100%;
+    vertical-align: middle;
 }

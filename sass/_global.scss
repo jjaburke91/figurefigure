@@ -9,7 +9,7 @@ ul {
 }
 
 .vh-site {
-    height: calc(100vh - 82px);
+    height: $vh-site;
 }
 
 .text-uppercase {
