@@ -30,7 +30,7 @@ class EventsPage extends React.Component {
 
   getImage(event) {
     const img = <img className="event-img" src={withPrefix(event.img)} alt={event.title} />;
-    return event.pdf ? <a href={withPrefix(event.pdf)}>{img}</a> : img;
+    return event.pdf ? <a href={withPrefix(event.pdf)} target="_blank">{img}</a> : img;
   }
 
   getItem(event, i) {
@@ -43,7 +43,7 @@ class EventsPage extends React.Component {
             <br />
             {event.subtitle}
             <br />
-            {event.pdf ? <a href={withPrefix(event.pdf)}>— Télécharger le communiqué</a> : ''}
+            {event.pdf ? <a href={withPrefix(event.pdf)}>— Télécharger le communiqué de presse</a> : ''}
           </span>
         </span>
       </li>

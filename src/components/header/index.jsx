@@ -41,7 +41,7 @@ class Header extends React.Component {
     const { navExpanded } = this.state;
     return (
       <header className="header font-secondary">
-        <Navbar bg="light" expand="md" onToggle={this.setNavExpanded} expanded={navExpanded}>
+        <Navbar expand="md" onToggle={this.setNavExpanded} expanded={navExpanded}>
           <Link id="sitename" to="/" className="navbar-brand">FIGURE FIGURE</Link>
           <Navbar.Toggle aria-controls="navbarToggler" />
           <Navbar.Collapse id="navbarToggler">
