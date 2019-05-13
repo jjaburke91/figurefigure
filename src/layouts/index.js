@@ -24,6 +24,7 @@ const TemplateWrapper = ({ data, children }) => {
 
         <link rel="canonical" href={DEFAULT_URL} />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <meta name="description" content={site.description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="figurefigure_fr" />
