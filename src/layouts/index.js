@@ -13,8 +13,10 @@ const DEFAULT_URL = 'https://figurefigure.fr/';
 
 const TemplateWrapper = ({ data, children }) => {
   const node = data.allDataJson.edges[0].node;
-  const { site, issues } = node;
-  const latestIssue = issues && issues[issues.length - 1];
+  const { site } = node;
+  const issues = node.issues.sort((a, b) => b.number - a.number);
+  console.log(node.issues, issues);
+  const latestIssue = issues[0];
 
   return (
     <React.Fragment>
