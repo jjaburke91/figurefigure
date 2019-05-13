@@ -34,20 +34,18 @@ class EventsPage extends React.Component {
   }
 
   getItem(event, i) {
-    const content = (
-      <span className="event-descr">
-        <span className="event-date">{showDayDate(event.date)}</span>
-        <span className="event-title">
-          {event.title}
-          <br />
-          {event.subtitle.toUpperCase()} | Télécharger
-        </span>
-      </span>
-    );
-
     return (
       <li key={`event item ${i}`} onMouseEnter={this.showEvent.bind(this, event)}>
-        {event.pdf ? <a href={withPrefix(event.pdf)}>{content}</a> : content}
+        <span className="event-descr">
+          <span className="event-date">{showDayDate(event.date)}</span>
+          <span className="event-title">
+            {event.title.toUpperCase()}
+            <br />
+            {event.subtitle}
+            <br />
+            {event.pdf ? <a href={withPrefix(event.pdf)}>— Télécharger le communiqué</a> : ''}
+          </span>
+        </span>
       </li>
     );
   }
