@@ -1,89 +1,117 @@
 {
+    "site": {
+        "title": "Figure Figure",
+        "description": "FIGURE FIGURE est une revue exclusivement numérique fondée en 2017 spécialisée dans la jeune création contemporaine. Chaque numéro prend la forme d’un entretien-fleuve avec un artiste émergent. Les publications sont mensuelles et disponibles en libre téléchargement. FIGURE FIGURE est aussi une association loi 1901 fondée en janvier 2019 visant à promouvoir la jeune création en lui donnant la parole, en lui offrant un espace de dialogue, de réflexion et de médiation. Indira Béraud a fondé la revue, dirige les publications, publie des entretiens. Line Ajan publie des entretiens, contribue au développement de la structure. Fani Morières assure la direction artistique des publications. Thomas Guillemet assure la direction artistique du site internet."
+    },
     "issues": [
         {
             "number": 1,
             "title": "Conversation avec Raphaël Fabre",
-            "date_of_issue": "01/10/2017",
-            "image_href": "/images/1.png",
-            "path": "/pdf/FigureFigure01RaphaelFabre.pdf"
+            "date_of_issue": "2017-10-01",
+            "pages": {"prefix": "/images/thumbnails/1/1.", "sufix":".jpeg", "first":1, "count": 42},
+            "path": "/pdf/FigureFigure01RaphaelFabre.pdf",
+            "archive_img": "/images/archives/01.jpeg",
+            "issue_path": "raphaël_fabre"
         },
         {
             "number": 2,
             "title": "Conversation avec Aurore Le Duc",
-            "date_of_issue": "01/11/2017",
-            "image_href": "/images/2.png",
-            "path": "/pdf/FigureFigure02AuroreLeDuc.pdf"
+            "date_of_issue": "2017-11-01",
+            "pages": {"prefix": "/images/thumbnails/2/2.", "sufix":".jpeg", "first":1, "count": 43},
+            "path": "/pdf/FigureFigure02AuroreLeDuc.pdf",
+            "archive_img": "/images/archives/02.jpeg",
+            "issue_path": "aurore_le_duc"
         },
         {
             "number": 3,
             "title": "Conversation avec Thomas Guillemet",
-            "date_of_issue": "01/12/2017",
-            "image_href": "/images/3.png",
-            "path": "/pdf/FigureFigure03ThomasGuillemet.pdf"
+            "date_of_issue": "2017-12-01",
+            "pages": {"prefix": "/images/thumbnails/3/3.", "sufix":".jpeg", "first":1, "count": 29},
+            "path": "/pdf/FigureFigure03ThomasGuillemet.pdf",
+            "archive_img": "/images/archives/03.jpeg",
+            "issue_path": "thomas_guillemet"
         },
         {
             "number": 4,
             "title": "Conversation avec Alice Guittard",
-            "date_of_issue": "01/01/2018",
-            "image_href": "/images/4.png",
-            "path": "/pdf/FigureFigure04AliceGuittard.pdf"
+            "date_of_issue": "2018-01-01",
+            "pages": {"prefix": "/images/thumbnails/4/4.", "sufix":".jpeg", "first":1, "count": 41},
+            "path": "/pdf/FigureFigure04AliceGuittard.pdf",
+            "archive_img": "/images/archives/04.jpeg",
+            "issue_path": "alice_guittard"
         },
         {
             "number": 5,
-            "title": "Conversation avec Février 2018",
-            "date_of_issue": "01/02/2018",
-            "image_href": "/images/5.png",
-            "path": "/pdf/FigureFigure05MarieHazard.pdf"
+            "title": "Conversation avec Marie Hazard",
+            "date_of_issue": "2018-02-01",
+            "pages": {"prefix": "/images/thumbnails/5/5.", "sufix":".jpeg", "first":1, "count": 26},
+            "path": "/pdf/FigureFigure05MarieHazard.pdf",
+            "archive_img": "/images/archives/05.jpeg",
+            "issue_path": "marie_hazard"
         },
         {
             "number": 6,
             "title": "Conversation avec Morgan Courtois",
-            "date_of_issue": "01/03/2018",
-            "image_href": "/images/6.png",
-            "path": "/pdf/FigureFigure06MorganCourtois.pdf"
+            "date_of_issue": "2018-03-01",
+            "pages": {"prefix": "/images/thumbnails/6/6.", "sufix":".jpeg", "first":1, "count": 36},
+            "path": "/pdf/FigureFigure06MorganCourtois.pdf",
+            "archive_img": "/images/archives/06.jpeg",
+            "issue_path": "morgan_courtois"
         },
         {
             "number": 7,
             "title": "Conversation avec Tyler Eash",
-            "date_of_issue": "01/04/2018",
-            "image_href": "/images/7.png",
-            "path": "/pdf/FigureFigure07TylerEash.pdf"
+            "date_of_issue": "2018-04-01",
+            "pages": {"prefix": "/images/thumbnails/7/7.", "sufix":".jpeg", "first":1, "count": 46},
+            "path": "/pdf/FigureFigure07TylerEash.pdf",
+            "archive_img": "/images/archives/07.jpeg",
+            "issue_path": "tyler_eash"
         },
         {
             "number": 8,
             "title": "Conversation avec Julien Creuzet",
-            "date_of_issue": "01/05/2018",
-            "image_href": "/images/8.png",
-            "path": "/pdf/FigureFigure08JulienCreuzet.pdf"
+            "date_of_issue": "2018-05-01",
+            "pages": {"prefix": "/images/thumbnails/8/8.", "sufix":".jpeg", "first":1, "count": 31},
+            "path": "/pdf/FigureFigure08JulienCreuzet.pdf",
+            "archive_img": "/images/archives/08.jpeg",
+            "issue_path": "julien_creuzet"
         },
         {
             "number": 9,
             "title": "Conversation avec Marie Munk",
-            "date_of_issue": "01/06/2018",
-            "image_href": "/images/9.png",
-            "path": "/pdf/FigureFigure09MarieMunk.pdf"
+            "date_of_issue": "2018-06-01",
+            "pages": {"prefix": "/images/thumbnails/9/9.", "sufix":".jpeg", "first":1, "count": 35},
+            "path": "/pdf/FigureFigure09MarieMunk.pdf",
+            "archive_img": "/images/archives/09.jpeg",
+            "issue_path": "marie_munk"
         },
         {
             "number": 10,
             "title": "Conversation avec Valentin Dommanget",
-            "date_of_issue": "01/07/2018",
-            "image_href": "/images/10.png",
-            "path": "/pdf/FigureFigure10ValentinDommanget.pdf"
+            "date_of_issue": "2018-07-01",
+            "pages": {"prefix": "/images/thumbnails/10/10.", "sufix":".jpeg", "first":1, "count": 41},
+            "path": "/pdf/FigureFigure10ValentinDommanget.pdf",
+            "archive_img": "/images/archives/10.jpeg",
+            "issue_path": "valentin_dommanget"
         },
         {
             "number": 11,
             "title": "Conversation avec Ben Elliot",
-            "date_of_issue": "01/12/2018",
-            "image_href": "/images/11.png",
-            "bg_href": "/images/11_background.jpg",
-            "path": "/pdf/FigureFigure11BenElliot.pdf"
+            "date_of_issue": "2018-12-01",
+            "image_href": "/images/11/11.png",
+            "bg_href": "/images/11/11_background.jpeg",
+            "pages": {"prefix": "/images/thumbnails/11/11.", "sufix":".jpeg", "first":1, "count": 29},
+            "path": "/pdf/FigureFigure11BenElliot.pdf",
+            "archive_img": "/images/archives/11.jpeg",
+            "issue_path": "ben_elliot"
         },
         {
             "number": 12,
             "title": "Conversation avec Bianca Bondi",
             "date_of_issue": "01/01/2019",
             "image_href": "/images/12.png",
-            "bg_href": "/images/12_background.jpg",
+            "bg_href": "/images/12_background.jpeg",
+            "archive_img": "/images/archives/12.jpeg",
             "path": "/pdf/FigureFigure12BiancaBondi.pdf"
         },
         {
@@ -91,7 +119,8 @@
             "title": "Conversation avec Jonathon Pêpe",
             "date_of_issue": "01/02/2019",
             "image_href": "/images/13.png",
-            "bg_href": "/images/13_background.jpg",
+            "bg_href": "/images/13_background.jpeg",
+            "archive_img": "/images/archives/13.jpeg",
             "path": "/pdf/FigureFigure13JonathanPepe.pdf"
         },
         {
@@ -99,62 +128,67 @@
             "title": "Conversation avec Agata Ingarden",
             "date_of_issue": "01/03/2019",
             "image_href": "/images/14.png",
-            "bg_href": "/images/14_background.jpg",
+            "bg_href": "/images/14_background.jpeg",
+            "archive_img": "/images/archives/14.jpeg",
             "path": "/pdf/FigureFigure14AgataIngarden.pdf"
         },
         {
             "number": 15,
-            "title": "Conversation avec Agata Ingarden",
+            "title": "Conversation avec Margot Pietri",
             "date_of_issue": "01/04/2019",
             "image_href": "/images/15.png",
-            "bg_href": "/images/15_background.jpg",
+            "bg_href": "/FF_IMAGE_SITE_01.jpg",
+            "archive_img": "/images/archives/15.jpeg",
             "path": "/pdf/FigureFigure15MargotPietri.pdf"
         },
         {
             "number": 16,
-            "title": "Conversation avec Mathilde Deniz",
+            "title": "Conversation avec Mathilde Denize",
             "date_of_issue": "01/05/2019",
             "image_href": "/images/16.png",
-            "bg_href": "/images/16_background.jpg",
+            "bg_href": "/FF_IMAGE_SITE_01.jpg",
+            "archive_img": "/images/archives/16.jpeg",
             "path": "/pdf/FigureFigure16MathildeDenize.pdf"
         }
     ],
+    "events": [
+        {
+            "title": "Lancement du site internet",
+            "subtitle": "Figure Figure x Mathilde Denize x Fondation d'entreprise Ricard",
+            "date": "2019-06-06",
+            "pdf": "/images/events/FigureFigure-MathildeDenize-FondationRicard.pdf",
+            "img": "/images/events/01.png"
+        }
+    ],
     "about": {
-        "english": [
-            "A person seen indistinctly or from a distance.",
-            "To reach an understanding of a person’s actions, motives, or personality.",
-            "To have a significant part or role in a situation or process.",
-            "A person of a particular kind, especially one who is important or distinctive.",
-            "A movement or series of movements following a prescribed pattern and often beginning and ending at the same point.",
-            "To think, consider, or expect to be the case.",
-            "To finally understand something or someone, or find the solution to a problem after a lot of thought.",
-            "A shape which is defined by one or more lines in two dimensions, or one or more surfaces in three dimensions, either considered mathematically or used as a decorative design.",
-            "A diagram or illustrative drawing, especially in a book or magazine."
-        ],
-        "french": [
-            "Donner d’un élément, une représentation qui en rende perceptible (surtout à la vue) l’aspect ou la nature caractéristique.",
-            "Façon dont un élément individualisé et structuré détache sur ce qui l’entoure.",
-            "Personnage célèbre ou personnalité marquante.",
-            "Carte sur laquelle est représenté un personnage (roi, dame, valet).",
-            "Unité linguistique ou disposition d’unités linguistiques comportant un écart sensible par rapport à la norme ou l’usage.",
-            "Enchaînement de mouvement formant un tout (on distingue les figures libres et les figures imposées).",
-            "Dessin servant à visualiser certains êtres mathématiques et permettant, en particulier en géométrie, d’éclairer une démonstration.",
-            "Partie du corps considérée par rapport aux expressions qu’on y lit.",
-            "Toute illustration (schéma, dessin, photo) dans un ouvrage. (Abréviation : fig.)."
+        "presentation": [
+            "Figure Figure est une revue exclusivement numérique fondée en 2017 spécialisée dans la jeune création contemporaine. Chaque numéro prend la forme d’un entretien-fleuve avec un artiste émergent. Les publications sont mensuelles et disponibles en libre téléchargement.", 
+            "Figure Figure est aussi une association loi 1901 fondée en janvier 2019 visant à promouvoir la jeune création en lui donnant la parole, en lui offrant un espace de dialogue, de réflexion et de médiation."
         ]
     },
-    "contact": {
-        "director": {
+    "contact": [
+        {
+            "title": "Direction de publication",
             "name": "Indira Béraud",
             "email": "Indira@figurefigure.fr"
         },
-        "writer": {
+        {
+            "title": "Contribution",
             "name": "Line Ajan",
             "email": "Line@figurefigure.fr"
         },
-        "artist": {
+        {
+            "title": "Direction artistique de publication",
             "name": "Fani Morières",
             "email": "Fani@figurefigure.fr"
+        },
+        {
+            "title": "Direction artistique du site web",
+            "name": "Thomas Guillemet"
+        },        
+        {
+            "title": "Conception du site web",
+            "name": "Adrien Béraud"
         }
-    }
+    ]
 }

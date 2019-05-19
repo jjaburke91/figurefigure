@@ -2,24 +2,19 @@
 
 import React from 'react';
 import Helmet from 'react-helmet';
-import Issue from '../components/issue';
+import HomepageIssue from '../components/homepage_issue';
 
-const PAGE_TITLE = "Figure Figure";
+const PAGE_TITLE = 'Figure Figure';
 
-const IndexPage = props => {
-    const items = props.data.allDataJson.edges[0].node.issues;
+const IndexPage = ({ data }) => {
+  const items = data.allDataJson.edges[0].node.issues;
 
-    const latestIssue = items && items[items.length -1];
-
-    return (
-        <main>
-            <Helmet title={PAGE_TITLE} />
-
-            <div className="text-center">
-                <Issue issue={latestIssue} isFullPage={true} key={"homepage issue"}/>
-            </div>
-        </main>
-    )
+  return (
+    <main>
+      <Helmet title={PAGE_TITLE} />
+      <HomepageIssue homepage issues={items} key="homepage issue" />
+    </main>
+  );
 };
 
 export default IndexPage;
@@ -33,9 +28,14 @@ export const pageQuery = graphql`
             number
             title
             date_of_issue
-            image_href
-            bg_href
+            pages {
+              prefix
+              sufix
+              first
+              count
+            }
             path
+            bg_href
           }
         }
       }

@@ -1,8 +1,13 @@
 import React from 'react';
 
-const Icon = props => (
-  <svg viewBox={props.icon.viewBox} width={props.width} height={props.height} fill={props.fill}>
-    <use xlinkHref={`#${props.icon.id}`} />
+const Icon = ({
+  icon,
+  width,
+  height,
+  fill,
+}) => (
+  <svg viewBox={icon.viewBox} width={width} height={height} fill={fill}>
+    <use xlinkHref={`#${icon.id}`} />
   </svg>
 );
 

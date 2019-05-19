@@ -1,0 +1,40 @@
+.event {}
+
+.event-img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.event-grid {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 16px !important;
+
+    li:before {
+        content: '+';
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+
+    li {
+        padding-top: 18px;
+    }
+}
+
+.event-img-grid {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.event-date {
+
+}
+
+.event-title {
+    float: right;
+}
+
+.event-descr {
+    margin: 0 16px 16px;
+}

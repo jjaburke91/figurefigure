@@ -1,55 +1,43 @@
-.issue {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    width: 238px;
-    margin: 2px 2px;
-    padding: 11px 16px;
-}
-
-.issue__img {
-    max-width: 100%;
+.issue_img {
+    vertical-align: top;
 }
 
 .issue-grid {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    article {
+        display: inline;
+    }
 
-    padding-top: 8px;
+    li:before {
+        content: '+';
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+
+    li {
+        padding-top: 18px;
+    }
 }
 .issue-grid__item {
     display: flex;
 }
 
-@media (max-width: 767px) {
-    .issue {
-        width: 100%;
-    }
-    .issue--full-height {
-        width: 100%;
+.issue-content {
+    text-align: center;
+
+    .issue-btn-list {
+        display: inline-block;
+        margin-top: 16px;
+
+        .btn {
+            margin-bottom: 8px;
+        }
     }
 }
 
-@media (min-width: 767px) {
-    .issue--full-height {
-        height: calc(100vh - 160px);
-        max-height: 1200px;
-        min-height: 400px;
-        width: auto;
-        margin: 16px auto;
-
-        .issue__img {
-            max-height: 100%;
-        }
+@media (max-width: 767px) {
+    .issue {
+        width: 100%;
     }
 }

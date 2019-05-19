@@ -1,15 +1,37 @@
 .footer {
+    bottom: 0;
     width: 100%;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    display: block;
+    position: fixed;
+    border-top: 1px solid black;
+
+    a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.bandef {
+    width: 100%;
+    background-color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: marquee 13s linear infinite;
+    animation: marquee 13s linear infinite;
+    animation-play-state: running;
+}
 
-    height: 60px;
-    max-width: 106px;
-    margin: 0 auto;
+/*  Arrêt du défilement au survol */
+.bandef:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes marquee {
+    0%  { text-indent: 100%; }
+    100% { text-indent: -300px; }
+}
+@keyframes marquee {
+    0%  { text-indent: 100%; }
+    100% { text-indent: -300px; }
 }

@@ -1,28 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withPrefix } from "gatsby-link";
+import { withPrefix } from 'gatsby-link';
+import { showMonthDate } from '../utils';
 
 import './issue.scss';
 
-const Issue = ({issue, isFullPage}) => {
-    const fullPageClass = isFullPage ? "issue--full-height" : "";
-    let bg = isFullPage && issue.bg_href
-        ? <div className="cover" style={{'background-image': `linear-gradient(0, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(${withPrefix(issue.bg_href)})`}} />
-        : "" ;
-
-    return (
-        <article className={`issue ${fullPageClass}`}>
-            {bg}
-            <a href={withPrefix(issue.path)} target="_blank">
-                <img className="issue__img" src={withPrefix(issue.image_href)} alt={`Issue ${issue.title} link`}/>
-            </a>
-        </article>
-    )
+const Issue = ({ issue }) => {
+  const d = new Date(issue.date_of_issue);
+  const formatedDate = showMonthDate(d);
+  return (
+    <article className="issue">
+      <a href={withPrefix(issue.path)} target="_blank">
+        N°{issue.number} — {formatedDate}
+        <br />
+        {issue.title.toUpperCase()}
+      </a>
+    </article>
+  );
 };
 
 Issue.propTypes = {
-    isFullPage: PropTypes.bool,
-    issue: PropTypes.object.isRequired,
+  issue: PropTypes.shape({
+    number: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    date_of_issue: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Issue;

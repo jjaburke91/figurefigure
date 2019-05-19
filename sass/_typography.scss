@@ -1,12 +1,49 @@
+@font-face {
+    font-family: 'TWOZARBII';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('TwoZarbii'),
+        url('./fonts/TWOZARBII-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Univers';
+    font-style: normal;
+    font-weight: 200;
+    src:
+        local('Univers'),
+        url('./fonts/Univers-light-normal.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Univers', sans-serif;
     font-size: 20px;
     color: $color_text;
+    font-weight: 200;
 }
 
 .font-secondary {
-    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-family: 'Univers', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 .font-tertiary {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Univers', sans-serif;
+    font-weight: 200;
+}
+
+.tt {
+    font-family: 'TWOZARBII', serif;
+    color: $color_text;
+}
+
+#sitename {
+    @extend .tt;
+    font-size: 24px;
+
+    a {
+        text-decoration: none;
+    }
 }

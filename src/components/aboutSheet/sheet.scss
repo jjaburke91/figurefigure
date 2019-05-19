@@ -1,32 +1,17 @@
 .sheet {
-    width: 432px;
     margin: 0 18px;
-    padding: 40px 40px 50px;
-
-    background-color: #e5e4e2;
-    box-shadow: 3px 2px 6px rgba(159, 159, 159, 0.37);
+    padding: 0px 40px 50px;
 
     box-sizing: border-box;
 }
-.sheet--contact {
-    justify-content: center;
-    padding: 105px 0 85px;
-}
 
 .sheet_header {
-    font-size: 12px;
     margin: 0;
     padding: 0 0 32px;
 }
 
 .sheet-line {
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-
     padding: 8px 0;
-
-    font-size: 12px;
 }
 
 .sheet-line__number {
@@ -36,10 +21,10 @@
 }
 
 .sheets-list {
-    display: flex;
-    justify-content: center;
     padding-top: 24px;
     padding-bottom: 24px;
+    text-align: center;
+    overflow-y: scroll;
 }
 
 .sheet-bg {
@@ -47,15 +32,27 @@
     background-size: cover;
 }
 
-@media (max-width: 767px) {
-    .sheets-list {
-        width: 100%;
-        flex-direction: column;
+#mc_embed_signup {
+    margin-bottom: 50px;
+}
+
+#mc_embed_signup_scroll {
+    margin: auto;
+    text-align: left;
+
+    .d {
+        position: absolute; left: -5000px;
     }
-    .sheet {
-        width: 90%;
-        margin: 0 auto 37px;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+}
+
+#mce-EMAIL {
+    width: 220px;
+}
+
+.contact-section {
+    padding-bottom: 40px;
+}
+.contact-section__header {
+    padding-bottom: 0;
+    margin-bottom: 10px;
 }

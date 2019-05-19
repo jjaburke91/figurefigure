@@ -1,16 +1,15 @@
-'use strict';
+const Express = require('express');
+const debug = require('debug')('api');
 
-var express = require('express');
-var debug = require('debug')('api');
-var app = new express();
+const app = new Express();
+const port = process.env.PORT || 8080;
 
 // express configs
 require('./config/express')(app);
 
-
 // start app
-app.listen(process.env.PORT || 8080, (error) => {
-    if (!error) {
-        debug(`📡  Running on port: ${process.env.PORT || 8080}`);
-    }
+app.listen(port, (error) => {
+  if (!error) {
+    console.log(`📡  Running on port: ${port}`);
+  }
 });
