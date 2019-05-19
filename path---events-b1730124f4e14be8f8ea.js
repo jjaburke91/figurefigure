@@ -1,0 +1,2 @@
+webpackJsonp([44713349584700],{263:function(e,t){e.exports={data:{allDataJson:{edges:[{node:{events:[{title:"Lancement du site internet",subtitle:"Figure Figure x Mathilde Denize x Fondation d'entreprise Ricard",date:"2019-06-06",img:"/images/events/01.png",pdf:"/images/events/FigureFigure-MathildeDenize-FondationRicard.pdf"}]}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---events-b1730124f4e14be8f8ea.js.map
