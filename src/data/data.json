@@ -149,6 +149,15 @@
             "bg_href": "/FF_IMAGE_SITE_01.jpg",
             "archive_img": "/images/archives/16.jpeg",
             "path": "/pdf/FigureFigure16MathildeDenize.pdf"
+        },
+        {
+            "number": 17,
+            "title": "Conversation avec Floryan Varennes",
+            "date_of_issue": "01/06/2019",
+            "image_href": "/images/16.png",
+            "bg_href": "/FF_IMAGE_SITE_02.png",
+            "archive_img": "/images/archives/17.jpeg",
+            "path": "/pdf/FigureFigure17FloryanVarennes.pdf"
         }
     ],
     "events": [
